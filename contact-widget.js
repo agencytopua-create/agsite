@@ -16,7 +16,7 @@
         telegram: '@Blastermannn',
         viber: '+380934797577',
         position: 'bottom-right', // bottom-right, bottom-left
-        showOnScroll: true, // Скрывать при прокрутке вниз
+        showOnScroll: false, // Скрывать при прокрутке вниз
         animationSpeed: 400
     };
 

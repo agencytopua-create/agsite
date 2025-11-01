@@ -479,22 +479,6 @@
         contactPanel.addEventListener('click', (e) => {
             e.stopPropagation();
         });
-
-        // Animation on scroll
-        let lastScroll = 0;
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-            if (currentScroll > lastScroll && currentScroll > 100) {
-                // Scrolling down
-                document.querySelector('.contact-widget').style.transform = 'translateY(calc(100% + 30px))';
-                document.querySelector('.contact-widget').style.opacity = '0';
-            } else {
-                // Scrolling up
-                document.querySelector('.contact-widget').style.transform = 'translateY(0)';
-                document.querySelector('.contact-widget').style.opacity = '1';
-            }
-            lastScroll = currentScroll;
-        });
     </script>
 </body>
 </html>

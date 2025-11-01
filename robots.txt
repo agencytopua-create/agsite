@@ -1,0 +1,19 @@
+# robots.txt for TOP AGENCY
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Disallow admin pages and thank you pages from indexing
+Disallow: /thank-you/
+Disallow: /ru/thank-you/
+Disallow: /en/thank-you/
+
+# Allow all other pages
+Allow: /ru/
+Allow: /en/
+Allow: /services/
+Allow: /blog/
+

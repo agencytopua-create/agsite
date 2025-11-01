@@ -1,0 +1,4822 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/ru/index.html"
+    },
+    {
+      "source": "/ru",
+      "destination": "/ru/index.html"
+    },
+    {
+      "source": "/ru/",
+      "destination": "/ru/index.html"
+    },
+    {
+      "source": "/ru/index.html",
+      "destination": "/ru/index.html"
+    },
+    {
+      "source": "/ru/services",
+      "destination": "/ru/services/index.html"
+    },
+    {
+      "source": "/ru/services/",
+      "destination": "/ru/services/index.html"
+    },
+    {
+      "source": "/ru/blog",
+      "destination": "/ru/blog/index.html"
+    },
+    {
+      "source": "/ru/blog/",
+      "destination": "/ru/blog/index.html"
+    },
+    {
+      "source": "/ru/blog/:path*",
+      "destination": "/ru/blog/:path*/index.html"
+    },
+    {
+      "source": "/ru/:path*",
+      "destination": "/ru/:path*/index.html"
+    },
+    {
+      "source": "/en",
+      "destination": "/en/index.html"
+    },
+    {
+      "source": "/en/",
+      "destination": "/en/index.html"
+    },
+    {
+      "source": "/en/about-us",
+      "destination": "/en/about-us/index.html"
+    },
+    {
+      "source": "/en/about-us/",
+      "destination": "/en/about-us/index.html"
+    },
+    {
+      "source": "/en/services",
+      "destination": "/en/services/index.html"
+    },
+    {
+      "source": "/en/services/",
+      "destination": "/en/services/index.html"
+    },
+    {
+      "source": "/en/cases",
+      "destination": "/en/cases/index.html"
+    },
+    {
+      "source": "/en/cases/",
+      "destination": "/en/cases/index.html"
+    },
+    {
+      "source": "/en/reviews",
+      "destination": "/en/reviews/index.html"
+    },
+    {
+      "source": "/en/reviews/",
+      "destination": "/en/reviews/index.html"
+    },
+    {
+      "source": "/en/contacts",
+      "destination": "/en/contacts/index.html"
+    },
+    {
+      "source": "/en/contacts/",
+      "destination": "/en/contacts/index.html"
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/en/:path*/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/blog/:path*/index.html"
+    },
+    {
+      "source": "/en/blog",
+      "destination": "/en/blog/index.html"
+    },
+    {
+      "source": "/en/blog/",
+      "destination": "/en/blog/index.html"
+    },
+    {
+      "source": "/en/blog/:path*",
+      "destination": "/en/blog/:path*/index.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/ru/services/index.html"
+    },
+    {
+      "source": "/services/",
+      "destination": "/ru/services/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/services/seo-promotion",
+      "destination": "/en/services/seo-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/services/seo-promotion/",
+      "destination": "/en/services/seo-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/services/targeted-advertising-on-social-networks",
+      "destination": "/en/services/targeted-advertising-on-social-networks/",
+      "permanent": false
+    },
+    {
+      "source": "/services/targeted-advertising-on-social-networks/",
+      "destination": "/en/services/targeted-advertising-on-social-networks/",
+      "permanent": false
+    },
+    {
+      "source": "/services/contextual-advertising",
+      "destination": "/en/services/contextual-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/services/contextual-advertising/",
+      "destination": "/en/services/contextual-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/services/content-marketing",
+      "destination": "/en/services/content-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/services/content-marketing/",
+      "destination": "/en/services/content-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/services/consulting",
+      "destination": "/en/services/consulting/",
+      "permanent": false
+    },
+    {
+      "source": "/services/consulting/",
+      "destination": "/en/services/consulting/",
+      "permanent": false
+    },
+    {
+      "source": "/about-us",
+      "destination": "/en/about-us/",
+      "permanent": false
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/en/about-us/",
+      "permanent": false
+    },
+    {
+      "source": "/reviews",
+      "destination": "/en/reviews/",
+      "permanent": false
+    },
+    {
+      "source": "/reviews/",
+      "destination": "/en/reviews/",
+      "permanent": false
+    },
+    {
+      "source": "/cases",
+      "destination": "/en/cases/",
+      "permanent": false
+    },
+    {
+      "source": "/cases/",
+      "destination": "/en/cases/",
+      "permanent": false
+    },
+    {
+      "source": "/contacts",
+      "destination": "/en/contacts/",
+      "permanent": false
+    },
+    {
+      "source": "/contacts/",
+      "destination": "/en/contacts/",
+      "permanent": false
+    },
+    {
+      "source": "/services/konsultirovanie/",
+      "destination": "/ru/services/konsultirovanie/",
+      "permanent": false
+    },
+    {
+      "source": "/services/konsultirovanie",
+      "destination": "/ru/services/konsultirovanie/",
+      "permanent": false
+    },
+    {
+      "source": "/services/kontent-marketing/",
+      "destination": "/ru/services/kontent-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/services/kontent-marketing",
+      "destination": "/ru/services/kontent-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/services/web-analitika/",
+      "destination": "/ru/services/web-analitika/",
+      "permanent": false
+    },
+    {
+      "source": "/services/web-analitika",
+      "destination": "/ru/services/web-analitika/",
+      "permanent": false
+    },
+    {
+      "source": "/services/targetirovannaya-reklama/",
+      "destination": "/ru/services/targetirovannaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/services/targetirovannaya-reklama",
+      "destination": "/ru/services/targetirovannaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/services/kontekstnaya-reklama/",
+      "destination": "/ru/services/kontekstnaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/services/kontekstnaya-reklama",
+      "destination": "/ru/services/kontekstnaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/services/seo-prodvizheniye/",
+      "destination": "/ru/services/seo-prodvizheniye/",
+      "permanent": false
+    },
+    {
+      "source": "/services/seo-prodvizheniye",
+      "destination": "/ru/services/seo-prodvizheniye/",
+      "permanent": false
+    },
+    {
+      "source": "/reiestratsiia-v-katalohakh-chy-varto",
+      "destination": "/blog/reiestratsiia-v-katalohakh-chy-varto/",
+      "permanent": false
+    },
+    {
+      "source": "/reiestratsiia-v-katalohakh-chy-varto/",
+      "destination": "/blog/reiestratsiia-v-katalohakh-chy-varto/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-korystuvatysia-servisom-google-trends",
+      "destination": "/blog/iak-korystuvatysia-servisom-google-trends/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-korystuvatysia-servisom-google-trends/",
+      "destination": "/blog/iak-korystuvatysia-servisom-google-trends/",
+      "permanent": false
+    },
+    {
+      "source": "/pomylky-landing-page-iaki-znyzhuiut-konversiiu",
+      "destination": "/blog/pomylky-landing-page-iaki-znyzhuiut-konversiiu/",
+      "permanent": false
+    },
+    {
+      "source": "/pomylky-landing-page-iaki-znyzhuiut-konversiiu/",
+      "destination": "/blog/pomylky-landing-page-iaki-znyzhuiut-konversiiu/",
+      "permanent": false
+    },
+    {
+      "source": "/skladannya-semantichnogo-yadra",
+      "destination": "/blog/skladannya-semantichnogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/skladannya-semantichnogo-yadra/",
+      "destination": "/blog/skladannya-semantichnogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-rrs-kidis-ua",
+      "destination": "/blog/kejs-rrs-kidis-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-rrs-kidis-ua/",
+      "destination": "/blog/kejs-rrs-kidis-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/zakon-pro-ukrayinsku-movu-5670-d-i-vpliv-na-seo",
+      "destination": "/blog/zakon-pro-ukrayinsku-movu-5670-d-i-vpliv-na-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/zakon-pro-ukrayinsku-movu-5670-d-i-vpliv-na-seo/",
+      "destination": "/blog/zakon-pro-ukrayinsku-movu-5670-d-i-vpliv-na-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/khto-takyj-seo-spetsialist-i-chym-vin-zajmaietsia",
+      "destination": "/blog/khto-takyj-seo-spetsialist-i-chym-vin-zajmaietsia/",
+      "permanent": false
+    },
+    {
+      "source": "/khto-takyj-seo-spetsialist-i-chym-vin-zajmaietsia/",
+      "destination": "/blog/khto-takyj-seo-spetsialist-i-chym-vin-zajmaietsia/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-kopirajting-oberezhno-obman",
+      "destination": "/blog/seo-kopirajting-oberezhno-obman/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-kopirajting-oberezhno-obman/",
+      "destination": "/blog/seo-kopirajting-oberezhno-obman/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prosuvannya-onlajn-shkoli-treningiv",
+      "destination": "/blog/kejs-po-seo-prosuvannya-onlajn-shkoli-treningiv/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prosuvannya-onlajn-shkoli-treningiv/",
+      "destination": "/blog/kejs-po-seo-prosuvannya-onlajn-shkoli-treningiv/",
+      "permanent": false
+    },
+    {
+      "source": "/futer-sajtu-shcho-tse-i-iak-oformyty-pidval-na-sajti",
+      "destination": "/blog/futer-sajtu-shcho-tse-i-iak-oformyty-pidval-na-sajti/",
+      "permanent": false
+    },
+    {
+      "source": "/futer-sajtu-shcho-tse-i-iak-oformyty-pidval-na-sajti/",
+      "destination": "/blog/futer-sajtu-shcho-tse-i-iak-oformyty-pidval-na-sajti/",
+      "permanent": false
+    },
+    {
+      "source": "/akc",
+      "destination": "/blog/akc/",
+      "permanent": false
+    },
+    {
+      "source": "/akc/",
+      "destination": "/blog/akc/",
+      "permanent": false
+    },
+    {
+      "source": "/redyrekt-shcho-take-i-iaki-vydy-buvaiut",
+      "destination": "/blog/redyrekt-shcho-take-i-iaki-vydy-buvaiut/",
+      "permanent": false
+    },
+    {
+      "source": "/redyrekt-shcho-take-i-iaki-vydy-buvaiut/",
+      "destination": "/blog/redyrekt-shcho-take-i-iaki-vydy-buvaiut/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-banerna-reklama-i-pryntsypy-ii-roboty",
+      "destination": "/blog/shcho-take-banerna-reklama-i-pryntsypy-ii-roboty/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-banerna-reklama-i-pryntsypy-ii-roboty/",
+      "destination": "/blog/shcho-take-banerna-reklama-i-pryntsypy-ii-roboty/",
+      "permanent": false
+    },
+    {
+      "source": "/referalnij-spam-shho-cze-take-i-yak-z-nim-borotisya",
+      "destination": "/blog/referalnij-spam-shho-cze-take-i-yak-z-nim-borotisya/",
+      "permanent": false
+    },
+    {
+      "source": "/referalnij-spam-shho-cze-take-i-yak-z-nim-borotisya/",
+      "destination": "/blog/referalnij-spam-shho-cze-take-i-yak-z-nim-borotisya/",
+      "permanent": false
+    },
+    {
+      "source": "/meta-tegy-dlya-seo-yak-pravylno-sklasty-h1-title-i-description",
+      "destination": "/blog/meta-tegy-dlya-seo-yak-pravylno-sklasty-h1-title-i-description/",
+      "permanent": false
+    },
+    {
+      "source": "/meta-tegy-dlya-seo-yak-pravylno-sklasty-h1-title-i-description/",
+      "destination": "/blog/meta-tegy-dlya-seo-yak-pravylno-sklasty-h1-title-i-description/",
+      "permanent": false
+    },
+    {
+      "source": "/zbilshennia-orhanichnoho-trafiku-na-20-dlia-strakhovoi-kompanii",
+      "destination": "/blog/zbilshennia-orhanichnoho-trafiku-na-20-dlia-strakhovoi-kompanii/",
+      "permanent": false
+    },
+    {
+      "source": "/zbilshennia-orhanichnoho-trafiku-na-20-dlia-strakhovoi-kompanii/",
+      "destination": "/blog/zbilshennia-orhanichnoho-trafiku-na-20-dlia-strakhovoi-kompanii/",
+      "permanent": false
+    },
+    {
+      "source": "/chomu-sajt-ne-indeksuietsia",
+      "destination": "/blog/chomu-sajt-ne-indeksuietsia/",
+      "permanent": false
+    },
+    {
+      "source": "/chomu-sajt-ne-indeksuietsia/",
+      "destination": "/blog/chomu-sajt-ne-indeksuietsia/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-vodianyj-znak-i-de-joho-vykorystovuiut",
+      "destination": "/blog/shcho-take-vodianyj-znak-i-de-joho-vykorystovuiut/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-vodianyj-znak-i-de-joho-vykorystovuiut/",
+      "destination": "/blog/shcho-take-vodianyj-znak-i-de-joho-vykorystovuiut/",
+      "permanent": false
+    },
+    {
+      "source": "/osoblyvosti-seo-marketynhu",
+      "destination": "/blog/osoblyvosti-seo-marketynhu/",
+      "permanent": false
+    },
+    {
+      "source": "/osoblyvosti-seo-marketynhu/",
+      "destination": "/blog/osoblyvosti-seo-marketynhu/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-seo-prosuvannya-sajtu-shvejnih-mashinok",
+      "destination": "/blog/kejs-z-seo-prosuvannya-sajtu-shvejnih-mashinok/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-seo-prosuvannya-sajtu-shvejnih-mashinok/",
+      "destination": "/blog/kejs-z-seo-prosuvannya-sajtu-shvejnih-mashinok/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-semantychna-verstka-i-navishcho-vona-potribna-dlia-seo",
+      "destination": "/blog/shcho-take-semantychna-verstka-i-navishcho-vona-potribna-dlia-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-semantychna-verstka-i-navishcho-vona-potribna-dlia-seo/",
+      "destination": "/blog/shcho-take-semantychna-verstka-i-navishcho-vona-potribna-dlia-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/digital-marketynh-osnovni-poniattia-ta-instrumenty",
+      "destination": "/blog/digital-marketynh-osnovni-poniattia-ta-instrumenty/",
+      "permanent": false
+    },
+    {
+      "source": "/digital-marketynh-osnovni-poniattia-ta-instrumenty/",
+      "destination": "/blog/digital-marketynh-osnovni-poniattia-ta-instrumenty/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovni-chynnyky-ranzhuvannya-veb-sajtiv-u-google-v-2021-roczi",
+      "destination": "/blog/osnovni-chynnyky-ranzhuvannya-veb-sajtiv-u-google-v-2021-roczi/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovni-chynnyky-ranzhuvannya-veb-sajtiv-u-google-v-2021-roczi/",
+      "destination": "/blog/osnovni-chynnyky-ranzhuvannya-veb-sajtiv-u-google-v-2021-roczi/",
+      "permanent": false
+    },
+    {
+      "source": "/test-stvorennia-perekladu",
+      "destination": "/blog/test-stvorennia-perekladu/",
+      "permanent": false
+    },
+    {
+      "source": "/test-stvorennia-perekladu/",
+      "destination": "/blog/test-stvorennia-perekladu/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-ukrainian-developer",
+      "destination": "/blog/kejs-seo-ukrainian-developer/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-ukrainian-developer/",
+      "destination": "/blog/kejs-seo-ukrainian-developer/",
+      "permanent": false
+    },
+    {
+      "source": "/performance-kejs-dlya-merezhi-azs",
+      "destination": "/blog/performance-kejs-dlya-merezhi-azs/",
+      "permanent": false
+    },
+    {
+      "source": "/performance-kejs-dlya-merezhi-azs/",
+      "destination": "/blog/performance-kejs-dlya-merezhi-azs/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-dodaty-kompaniiu-na-google-maps",
+      "destination": "/blog/iak-dodaty-kompaniiu-na-google-maps/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-dodaty-kompaniiu-na-google-maps/",
+      "destination": "/blog/iak-dodaty-kompaniiu-na-google-maps/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-trast-sajtu-i-iak-joho-vyznachyty",
+      "destination": "/blog/shcho-take-trast-sajtu-i-iak-joho-vyznachyty/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-trast-sajtu-i-iak-joho-vyznachyty/",
+      "destination": "/blog/shcho-take-trast-sajtu-i-iak-joho-vyznachyty/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-mariemur-com",
+      "destination": "/blog/kejs-seo-mariemur-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-mariemur-com/",
+      "destination": "/blog/kejs-seo-mariemur-com/",
+      "permanent": false
+    },
+    {
+      "source": "/vidstezhiti-trafik-sms-rozsilok-legko",
+      "destination": "/blog/vidstezhiti-trafik-sms-rozsilok-legko/",
+      "permanent": false
+    },
+    {
+      "source": "/vidstezhiti-trafik-sms-rozsilok-legko/",
+      "destination": "/blog/vidstezhiti-trafik-sms-rozsilok-legko/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovni-seo-metriki",
+      "destination": "/blog/osnovni-seo-metriki/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovni-seo-metriki/",
+      "destination": "/blog/osnovni-seo-metriki/",
+      "permanent": false
+    },
+    {
+      "source": "/tipi-czilej-v-google-analytics",
+      "destination": "/blog/tipi-czilej-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/tipi-czilej-v-google-analytics/",
+      "destination": "/blog/tipi-czilej-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/gmail-sponsored-promotions-yak-cze-praczyuye-i-dlya-chogo-cze-potribno",
+      "destination": "/blog/gmail-sponsored-promotions-yak-cze-praczyuye-i-dlya-chogo-cze-potribno/",
+      "permanent": false
+    },
+    {
+      "source": "/gmail-sponsored-promotions-yak-cze-praczyuye-i-dlya-chogo-cze-potribno/",
+      "destination": "/blog/gmail-sponsored-promotions-yak-cze-praczyuye-i-dlya-chogo-cze-potribno/",
+      "permanent": false
+    },
+    {
+      "source": "/ppc-vs-seo-shho-krashhe-dlya-vashogo-sajtu",
+      "destination": "/blog/ppc-vs-seo-shho-krashhe-dlya-vashogo-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/ppc-vs-seo-shho-krashhe-dlya-vashogo-sajtu/",
+      "destination": "/blog/ppc-vs-seo-shho-krashhe-dlya-vashogo-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/shho-take-seo-audit-sajtu-chek-list-kompaniyi-seomarket",
+      "destination": "/blog/shho-take-seo-audit-sajtu-chek-list-kompaniyi-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/shho-take-seo-audit-sajtu-chek-list-kompaniyi-seomarket/",
+      "destination": "/blog/shho-take-seo-audit-sajtu-chek-list-kompaniyi-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-analizuvati-aukczioni-za-dopomogoyu-google-data-studio",
+      "destination": "/blog/yak-analizuvati-aukczioni-za-dopomogoyu-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-analizuvati-aukczioni-za-dopomogoyu-google-data-studio/",
+      "destination": "/blog/yak-analizuvati-aukczioni-za-dopomogoyu-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-provesty-analiz-snipetiv-u-poshukovij-vydachi",
+      "destination": "/blog/iak-provesty-analiz-snipetiv-u-poshukovij-vydachi/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-provesty-analiz-snipetiv-u-poshukovij-vydachi/",
+      "destination": "/blog/iak-provesty-analiz-snipetiv-u-poshukovij-vydachi/",
+      "permanent": false
+    },
+    {
+      "source": "/khto-takyj-kontent-menedzher-i-chym-vin-zajmaietsia",
+      "destination": "/blog/khto-takyj-kontent-menedzher-i-chym-vin-zajmaietsia/",
+      "permanent": false
+    },
+    {
+      "source": "/khto-takyj-kontent-menedzher-i-chym-vin-zajmaietsia/",
+      "destination": "/blog/khto-takyj-kontent-menedzher-i-chym-vin-zajmaietsia/",
+      "permanent": false
+    },
+    {
+      "source": "/intervyu-z-didzhital-analitikom-z-czitrusa-yuliyeyu-kosyuk",
+      "destination": "/blog/intervyu-z-didzhital-analitikom-z-czitrusa-yuliyeyu-kosyuk/",
+      "permanent": false
+    },
+    {
+      "source": "/intervyu-z-didzhital-analitikom-z-czitrusa-yuliyeyu-kosyuk/",
+      "destination": "/blog/intervyu-z-didzhital-analitikom-z-czitrusa-yuliyeyu-kosyuk/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-ltv-kliienta-iak-rozrakhovuietsia-pokaznyk-i-chomu-vin-vazhlyvyj",
+      "destination": "/blog/shcho-take-ltv-kliienta-iak-rozrakhovuietsia-pokaznyk-i-chomu-vin-vazhlyvyj/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-ltv-kliienta-iak-rozrakhovuietsia-pokaznyk-i-chomu-vin-vazhlyvyj/",
+      "destination": "/blog/shcho-take-ltv-kliienta-iak-rozrakhovuietsia-pokaznyk-i-chomu-vin-vazhlyvyj/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-facebook-ads-manager-i-iak-z-nym-pratsiuvaty",
+      "destination": "/blog/shcho-take-facebook-ads-manager-i-iak-z-nym-pratsiuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-facebook-ads-manager-i-iak-z-nym-pratsiuvaty/",
+      "destination": "/blog/shcho-take-facebook-ads-manager-i-iak-z-nym-pratsiuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-azolalegal-com",
+      "destination": "/blog/kejs-seo-azolalegal-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-azolalegal-com/",
+      "destination": "/blog/kejs-seo-azolalegal-com/",
+      "permanent": false
+    },
+    {
+      "source": "/test-iak-sklasty-marketynhovu-stratehiiu",
+      "destination": "/blog/test-iak-sklasty-marketynhovu-stratehiiu/",
+      "permanent": false
+    },
+    {
+      "source": "/test-iak-sklasty-marketynhovu-stratehiiu/",
+      "destination": "/blog/test-iak-sklasty-marketynhovu-stratehiiu/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovni-vydy-kontentu-ta-iak-ikh-pravylno-oformliuvaty",
+      "destination": "/blog/osnovni-vydy-kontentu-ta-iak-ikh-pravylno-oformliuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovni-vydy-kontentu-ta-iak-ikh-pravylno-oformliuvaty/",
+      "destination": "/blog/osnovni-vydy-kontentu-ta-iak-ikh-pravylno-oformliuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/zbilshyly-orhanichnyj-trafik-na-144-dlia-internet-mahazynu-premialnoho-alkoholiu",
+      "destination": "/blog/zbilshyly-orhanichnyj-trafik-na-144-dlia-internet-mahazynu-premialnoho-alkoholiu/",
+      "permanent": false
+    },
+    {
+      "source": "/zbilshyly-orhanichnyj-trafik-na-144-dlia-internet-mahazynu-premialnoho-alkoholiu/",
+      "destination": "/blog/zbilshyly-orhanichnyj-trafik-na-144-dlia-internet-mahazynu-premialnoho-alkoholiu/",
+      "permanent": false
+    },
+    {
+      "source": "/shho-daje-ustanovka-google-analytics-na-sajt",
+      "destination": "/blog/shho-daje-ustanovka-google-analytics-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/shho-daje-ustanovka-google-analytics-na-sajt/",
+      "destination": "/blog/shho-daje-ustanovka-google-analytics-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-dodavannya-media-portalu-v-google-news",
+      "destination": "/blog/kejs-z-dodavannya-media-portalu-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-dodavannya-media-portalu-v-google-news/",
+      "destination": "/blog/kejs-z-dodavannya-media-portalu-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pratsiuiut-alhorytmy-tiktok-poiasnennia-prostymy-slovamy",
+      "destination": "/blog/iak-pratsiuiut-alhorytmy-tiktok-poiasnennia-prostymy-slovamy/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pratsiuiut-alhorytmy-tiktok-poiasnennia-prostymy-slovamy/",
+      "destination": "/blog/iak-pratsiuiut-alhorytmy-tiktok-poiasnennia-prostymy-slovamy/",
+      "permanent": false
+    },
+    {
+      "source": "/8-porad-yaki-dopomozhut-vam-prodavati-tovari-cherez-soczialni-merezhi",
+      "destination": "/blog/8-porad-yaki-dopomozhut-vam-prodavati-tovari-cherez-soczialni-merezhi/",
+      "permanent": false
+    },
+    {
+      "source": "/8-porad-yaki-dopomozhut-vam-prodavati-tovari-cherez-soczialni-merezhi/",
+      "destination": "/blog/8-porad-yaki-dopomozhut-vam-prodavati-tovari-cherez-soczialni-merezhi/",
+      "permanent": false
+    },
+    {
+      "source": "/tarhetovana-reklama-v-sotsmerezhakh-vydy-formaty-ta-osoblyvosti",
+      "destination": "/blog/tarhetovana-reklama-v-sotsmerezhakh-vydy-formaty-ta-osoblyvosti/",
+      "permanent": false
+    },
+    {
+      "source": "/tarhetovana-reklama-v-sotsmerezhakh-vydy-formaty-ta-osoblyvosti/",
+      "destination": "/blog/tarhetovana-reklama-v-sotsmerezhakh-vydy-formaty-ta-osoblyvosti/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-scrambleup-com",
+      "destination": "/blog/kejs-seo-scrambleup-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-scrambleup-com/",
+      "destination": "/blog/kejs-seo-scrambleup-com/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-roi-iak-porakhuvaty-pokaznyk-i-chomu-vin-vazhlyvyj",
+      "destination": "/blog/shcho-take-roi-iak-porakhuvaty-pokaznyk-i-chomu-vin-vazhlyvyj/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-roi-iak-porakhuvaty-pokaznyk-i-chomu-vin-vazhlyvyj/",
+      "destination": "/blog/shcho-take-roi-iak-porakhuvaty-pokaznyk-i-chomu-vin-vazhlyvyj/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pratsiuie-monetyzatsiia-v-tiktok-i-iak-pochaty-zarobliaty",
+      "destination": "/blog/iak-pratsiuie-monetyzatsiia-v-tiktok-i-iak-pochaty-zarobliaty/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pratsiuie-monetyzatsiia-v-tiktok-i-iak-pochaty-zarobliaty/",
+      "destination": "/blog/iak-pratsiuie-monetyzatsiia-v-tiktok-i-iak-pochaty-zarobliaty/",
+      "permanent": false
+    },
+    {
+      "source": "/osoblyvosti-prosuvannia-ahrarnoho-internet-mahazynu",
+      "destination": "/blog/osoblyvosti-prosuvannia-ahrarnoho-internet-mahazynu/",
+      "permanent": false
+    },
+    {
+      "source": "/osoblyvosti-prosuvannia-ahrarnoho-internet-mahazynu/",
+      "destination": "/blog/osoblyvosti-prosuvannia-ahrarnoho-internet-mahazynu/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-vidstezhuvati-pereglyad-videorolikiv-na-svoyemu-sajti",
+      "destination": "/blog/yak-vidstezhuvati-pereglyad-videorolikiv-na-svoyemu-sajti/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-vidstezhuvati-pereglyad-videorolikiv-na-svoyemu-sajti/",
+      "destination": "/blog/yak-vidstezhuvati-pereglyad-videorolikiv-na-svoyemu-sajti/",
+      "permanent": false
+    },
+    {
+      "source": "/bagatokanalni-poslidovnosti-v-google-analytics",
+      "destination": "/blog/bagatokanalni-poslidovnosti-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/bagatokanalni-poslidovnosti-v-google-analytics/",
+      "destination": "/blog/bagatokanalni-poslidovnosti-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-diznatysia-dvyzhok-sajtu",
+      "destination": "/blog/iak-diznatysia-dvyzhok-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-diznatysia-dvyzhok-sajtu/",
+      "destination": "/blog/iak-diznatysia-dvyzhok-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-dodati-novogo-koristuvacha-v-google-analytics",
+      "destination": "/blog/yak-dodati-novogo-koristuvacha-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-dodati-novogo-koristuvacha-v-google-analytics/",
+      "destination": "/blog/yak-dodati-novogo-koristuvacha-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/najkrashchi-instrumenty-dlia-perevirky-shvydkosti-zavantazhennia-sajtu",
+      "destination": "/blog/najkrashchi-instrumenty-dlia-perevirky-shvydkosti-zavantazhennia-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/najkrashchi-instrumenty-dlia-perevirky-shvydkosti-zavantazhennia-sajtu/",
+      "destination": "/blog/najkrashchi-instrumenty-dlia-perevirky-shvydkosti-zavantazhennia-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/google-tag-manager-shcho-tse-take-iak-nalashtuvaty-ta-vstanovyty-gtm",
+      "destination": "/blog/google-tag-manager-shcho-tse-take-iak-nalashtuvaty-ta-vstanovyty-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/google-tag-manager-shcho-tse-take-iak-nalashtuvaty-ta-vstanovyty-gtm/",
+      "destination": "/blog/google-tag-manager-shcho-tse-take-iak-nalashtuvaty-ta-vstanovyty-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-google-vydy-tsili-ta-perevahy",
+      "destination": "/blog/kontekstna-reklama-google-vydy-tsili-ta-perevahy/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-google-vydy-tsili-ta-perevahy/",
+      "destination": "/blog/kontekstna-reklama-google-vydy-tsili-ta-perevahy/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-narostyty-posylalnu-masu-na-sajt",
+      "destination": "/blog/iak-narostyty-posylalnu-masu-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-narostyty-posylalnu-masu-na-sajt/",
+      "destination": "/blog/iak-narostyty-posylalnu-masu-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-edrpou-ubki-ua",
+      "destination": "/blog/kejs-seo-edrpou-ubki-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-edrpou-ubki-ua/",
+      "destination": "/blog/kejs-seo-edrpou-ubki-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-lid-proste-vyznachennia-dlia-biznesu",
+      "destination": "/blog/shcho-take-lid-proste-vyznachennia-dlia-biznesu/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-lid-proste-vyznachennia-dlia-biznesu/",
+      "destination": "/blog/shcho-take-lid-proste-vyznachennia-dlia-biznesu/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-reklamnoyi-ppc-kampaniyi-internet-magazinu-fototehniki",
+      "destination": "/blog/kejs-z-reklamnoyi-ppc-kampaniyi-internet-magazinu-fototehniki/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-reklamnoyi-ppc-kampaniyi-internet-magazinu-fototehniki/",
+      "destination": "/blog/kejs-z-reklamnoyi-ppc-kampaniyi-internet-magazinu-fototehniki/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-arbitrazh-trafiku",
+      "destination": "/blog/shcho-take-arbitrazh-trafiku/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-arbitrazh-trafiku/",
+      "destination": "/blog/shcho-take-arbitrazh-trafiku/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-referensy-i-iak-ikh-pravylno-vykorystovuvaty",
+      "destination": "/blog/shcho-take-referensy-i-iak-ikh-pravylno-vykorystovuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-referensy-i-iak-ikh-pravylno-vykorystovuvaty/",
+      "destination": "/blog/shcho-take-referensy-i-iak-ikh-pravylno-vykorystovuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-bezankorni-posylannia-i-navishcho-vony-potribni",
+      "destination": "/blog/shcho-take-bezankorni-posylannia-i-navishcho-vony-potribni/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-bezankorni-posylannia-i-navishcho-vony-potribni/",
+      "destination": "/blog/shcho-take-bezankorni-posylannia-i-navishcho-vony-potribni/",
+      "permanent": false
+    },
+    {
+      "source": "/cpm-shcho-tse-take-iak-zastosovuietsia-v-reklami",
+      "destination": "/blog/cpm-shcho-tse-take-iak-zastosovuietsia-v-reklami/",
+      "permanent": false
+    },
+    {
+      "source": "/cpm-shcho-tse-take-iak-zastosovuietsia-v-reklami/",
+      "destination": "/blog/cpm-shcho-tse-take-iak-zastosovuietsia-v-reklami/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-vyznachyty-tsilovu-audytoriiu-praktychnyj-posibnyk",
+      "destination": "/blog/iak-vyznachyty-tsilovu-audytoriiu-praktychnyj-posibnyk/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-vyznachyty-tsilovu-audytoriiu-praktychnyj-posibnyk/",
+      "destination": "/blog/iak-vyznachyty-tsilovu-audytoriiu-praktychnyj-posibnyk/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-iz-seo-prosuvannya-magazinu-brendovogo-odyagu-ta-aksesuariv",
+      "destination": "/blog/kejs-iz-seo-prosuvannya-magazinu-brendovogo-odyagu-ta-aksesuariv/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-iz-seo-prosuvannya-magazinu-brendovogo-odyagu-ta-aksesuariv/",
+      "destination": "/blog/kejs-iz-seo-prosuvannya-magazinu-brendovogo-odyagu-ta-aksesuariv/",
+      "permanent": false
+    },
+    {
+      "source": "/scho-take-b2b-prodazhi",
+      "destination": "/blog/scho-take-b2b-prodazhi/",
+      "permanent": false
+    },
+    {
+      "source": "/scho-take-b2b-prodazhi/",
+      "destination": "/blog/scho-take-b2b-prodazhi/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-avtivna-com-ua",
+      "destination": "/blog/kejs-seo-avtivna-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-avtivna-com-ua/",
+      "destination": "/blog/kejs-seo-avtivna-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-vidstezhuvati-informacziyu-z-dekilkoh-piddomeniv",
+      "destination": "/blog/yak-vidstezhuvati-informacziyu-z-dekilkoh-piddomeniv/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-vidstezhuvati-informacziyu-z-dekilkoh-piddomeniv/",
+      "destination": "/blog/yak-vidstezhuvati-informacziyu-z-dekilkoh-piddomeniv/",
+      "permanent": false
+    },
+    {
+      "source": "/effektivnoye-i-bezopasnoye-ssylochnoye-prodvizheniye-dlya-belykh-proyektov",
+      "destination": "/blog/effektivnoye-i-bezopasnoye-ssylochnoye-prodvizheniye-dlya-belykh-proyektov/",
+      "permanent": false
+    },
+    {
+      "source": "/effektivnoye-i-bezopasnoye-ssylochnoye-prodvizheniye-dlya-belykh-proyektov/",
+      "destination": "/blog/effektivnoye-i-bezopasnoye-ssylochnoye-prodvizheniye-dlya-belykh-proyektov/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-turboremont-com-ua",
+      "destination": "/blog/kejs-seo-turboremont-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-turboremont-com-ua/",
+      "destination": "/blog/kejs-seo-turboremont-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-cdn-i-iak-joho-nalashtuvaty",
+      "destination": "/blog/shcho-take-cdn-i-iak-joho-nalashtuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-cdn-i-iak-joho-nalashtuvaty/",
+      "destination": "/blog/shcho-take-cdn-i-iak-joho-nalashtuvaty/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-zbilshiti-vashu-klikabelnist-u-8-prostih-krokiv",
+      "destination": "/blog/yak-zbilshiti-vashu-klikabelnist-u-8-prostih-krokiv/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-zbilshiti-vashu-klikabelnist-u-8-prostih-krokiv/",
+      "destination": "/blog/yak-zbilshiti-vashu-klikabelnist-u-8-prostih-krokiv/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-svitsaun-com-ua",
+      "destination": "/blog/kejs-seo-svitsaun-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-svitsaun-com-ua/",
+      "destination": "/blog/kejs-seo-svitsaun-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-ppc-luckylink-kiev-ua",
+      "destination": "/blog/kejs-ppc-luckylink-kiev-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-ppc-luckylink-kiev-ua/",
+      "destination": "/blog/kejs-ppc-luckylink-kiev-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pereviryty-sajt-na-virusy",
+      "destination": "/blog/iak-pereviryty-sajt-na-virusy/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pereviryty-sajt-na-virusy/",
+      "destination": "/blog/iak-pereviryty-sajt-na-virusy/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-zovnishni-seo-posylannia",
+      "destination": "/blog/shcho-take-zovnishni-seo-posylannia/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-zovnishni-seo-posylannia/",
+      "destination": "/blog/shcho-take-zovnishni-seo-posylannia/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-rrs-prosuvannya-torgivelno-rozvazhalnogo-kompleksu",
+      "destination": "/blog/kejs-z-rrs-prosuvannya-torgivelno-rozvazhalnogo-kompleksu/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-z-rrs-prosuvannya-torgivelno-rozvazhalnogo-kompleksu/",
+      "destination": "/blog/kejs-z-rrs-prosuvannya-torgivelno-rozvazhalnogo-kompleksu/",
+      "permanent": false
+    },
+    {
+      "source": "/klasterizacziya-semantichnogo-yadra",
+      "destination": "/blog/klasterizacziya-semantichnogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/klasterizacziya-semantichnogo-yadra/",
+      "destination": "/blog/klasterizacziya-semantichnogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-kraud-posylannia",
+      "destination": "/blog/shcho-take-kraud-posylannia/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-kraud-posylannia/",
+      "destination": "/blog/shcho-take-kraud-posylannia/",
+      "permanent": false
+    },
+    {
+      "source": "/dinamichnij-tovarnij-remarketing-dlya-google-adwords-with-google-tag-manager",
+      "destination": "/blog/dinamichnij-tovarnij-remarketing-dlya-google-adwords-with-google-tag-manager/",
+      "permanent": false
+    },
+    {
+      "source": "/dinamichnij-tovarnij-remarketing-dlya-google-adwords-with-google-tag-manager/",
+      "destination": "/blog/dinamichnij-tovarnij-remarketing-dlya-google-adwords-with-google-tag-manager/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-perevesty-video-u-tekst",
+      "destination": "/blog/iak-perevesty-video-u-tekst/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-perevesty-video-u-tekst/",
+      "destination": "/blog/iak-perevesty-video-u-tekst/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-dodati-sajt-v-google-news",
+      "destination": "/blog/yak-dodati-sajt-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/yak-dodati-sajt-v-google-news/",
+      "destination": "/blog/yak-dodati-sajt-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prosuvannya-sajtu-ohoronnih-sistem",
+      "destination": "/blog/kejs-po-seo-prosuvannya-sajtu-ohoronnih-sistem/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prosuvannya-sajtu-ohoronnih-sistem/",
+      "destination": "/blog/kejs-po-seo-prosuvannya-sajtu-ohoronnih-sistem/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-iz-zapusku-online-reklami-dlya-merezhi-magaziniv-cholovichogo-odyagu",
+      "destination": "/blog/kejs-iz-zapusku-online-reklami-dlya-merezhi-magaziniv-cholovichogo-odyagu/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-iz-zapusku-online-reklami-dlya-merezhi-magaziniv-cholovichogo-odyagu/",
+      "destination": "/blog/kejs-iz-zapusku-online-reklami-dlya-merezhi-magaziniv-cholovichogo-odyagu/",
+      "permanent": false
+    },
+    {
+      "source": "/shho-take-affiliati-i-chomu-yih-varto-boyatisya",
+      "destination": "/blog/shho-take-affiliati-i-chomu-yih-varto-boyatisya/",
+      "permanent": false
+    },
+    {
+      "source": "/shho-take-affiliati-i-chomu-yih-varto-boyatisya/",
+      "destination": "/blog/shho-take-affiliati-i-chomu-yih-varto-boyatisya/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analiz-sajtiv-konkurentiv-pidhid-instrumentarij",
+      "destination": "/blog/seo-analiz-sajtiv-konkurentiv-pidhid-instrumentarij/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analiz-sajtiv-konkurentiv-pidhid-instrumentarij/",
+      "destination": "/blog/seo-analiz-sajtiv-konkurentiv-pidhid-instrumentarij/",
+      "permanent": false
+    },
+    {
+      "source": "/prototyp-sajtu-navishcho-vin-potriben-i-iak-stvoryty-joho-samostijno",
+      "destination": "/blog/prototyp-sajtu-navishcho-vin-potriben-i-iak-stvoryty-joho-samostijno/",
+      "permanent": false
+    },
+    {
+      "source": "/prototyp-sajtu-navishcho-vin-potriben-i-iak-stvoryty-joho-samostijno/",
+      "destination": "/blog/prototyp-sajtu-navishcho-vin-potriben-i-iak-stvoryty-joho-samostijno/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-google-data-studio",
+      "destination": "/blog/shcho-take-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-google-data-studio/",
+      "destination": "/blog/shcho-take-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/populiarni-onlajn-servisy-dlia-shvydkoho-skorochennia-posylan",
+      "destination": "/blog/populiarni-onlajn-servisy-dlia-shvydkoho-skorochennia-posylan/",
+      "permanent": false
+    },
+    {
+      "source": "/populiarni-onlajn-servisy-dlia-shvydkoho-skorochennia-posylan/",
+      "destination": "/blog/populiarni-onlajn-servisy-dlia-shvydkoho-skorochennia-posylan/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-brendynh-vyznachennia-prostymy-slovamy",
+      "destination": "/blog/shcho-take-brendynh-vyznachennia-prostymy-slovamy/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-brendynh-vyznachennia-prostymy-slovamy/",
+      "destination": "/blog/shcho-take-brendynh-vyznachennia-prostymy-slovamy/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-dodaty-sajt-u-google-search-console",
+      "destination": "/blog/iak-dodaty-sajt-u-google-search-console/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-dodaty-sajt-u-google-search-console/",
+      "destination": "/blog/iak-dodaty-sajt-u-google-search-console/",
+      "permanent": false
+    },
+    {
+      "source": "/301-redyrekt-shcho-tse-za-instrument-i-iaki-osoblyvosti-joho-nalashtuvannia",
+      "destination": "/blog/301-redyrekt-shcho-tse-za-instrument-i-iaki-osoblyvosti-joho-nalashtuvannia/",
+      "permanent": false
+    },
+    {
+      "source": "/301-redyrekt-shcho-tse-za-instrument-i-iaki-osoblyvosti-joho-nalashtuvannia/",
+      "destination": "/blog/301-redyrekt-shcho-tse-za-instrument-i-iaki-osoblyvosti-joho-nalashtuvannia/",
+      "permanent": false
+    },
+    {
+      "source": "/autrich-posylannia-shcho-tse-i-iak-pravylno-otrymaty",
+      "destination": "/blog/autrich-posylannia-shcho-tse-i-iak-pravylno-otrymaty/",
+      "permanent": false
+    },
+    {
+      "source": "/autrich-posylannia-shcho-tse-i-iak-pravylno-otrymaty/",
+      "destination": "/blog/autrich-posylannia-shcho-tse-i-iak-pravylno-otrymaty/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-stvoryty-vnutrishnij-poshuk-na-sajti",
+      "destination": "/blog/iak-stvoryty-vnutrishnij-poshuk-na-sajti/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-stvoryty-vnutrishnij-poshuk-na-sajti/",
+      "destination": "/blog/iak-stvoryty-vnutrishnij-poshuk-na-sajti/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-cro-i-iak-vono-dopomahaie-zbilshuvaty-konversii",
+      "destination": "/blog/shcho-take-cro-i-iak-vono-dopomahaie-zbilshuvaty-konversii/",
+      "permanent": false
+    },
+    {
+      "source": "/shcho-take-cro-i-iak-vono-dopomahaie-zbilshuvaty-konversii/",
+      "destination": "/blog/shcho-take-cro-i-iak-vono-dopomahaie-zbilshuvaty-konversii/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-prosuvaty-posty-v-instagram",
+      "destination": "/blog/iak-prosuvaty-posty-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-prosuvaty-posty-v-instagram/",
+      "destination": "/blog/iak-prosuvaty-posty-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/natyvna-reklama-shcho-tse-take-i-iak-vona-pratsiuie",
+      "destination": "/blog/natyvna-reklama-shcho-tse-take-i-iak-vona-pratsiuie/",
+      "permanent": false
+    },
+    {
+      "source": "/natyvna-reklama-shcho-tse-take-i-iak-vona-pratsiuie/",
+      "destination": "/blog/natyvna-reklama-shcho-tse-take-i-iak-vona-pratsiuie/",
+      "permanent": false
+    },
+    {
+      "source": "/google-search-console-webmaster-tools-prostyj-posibnyk-dlia-pochatkivtsiv",
+      "destination": "/blog/google-search-console-webmaster-tools-prostyj-posibnyk-dlia-pochatkivtsiv/",
+      "permanent": false
+    },
+    {
+      "source": "/google-search-console-webmaster-tools-prostyj-posibnyk-dlia-pochatkivtsiv/",
+      "destination": "/blog/google-search-console-webmaster-tools-prostyj-posibnyk-dlia-pochatkivtsiv/",
+      "permanent": false
+    },
+    {
+      "source": "/ctr-iak-pidvyshchyty-pokaznyk-klikabelnosti",
+      "destination": "/blog/ctr-iak-pidvyshchyty-pokaznyk-klikabelnosti/",
+      "permanent": false
+    },
+    {
+      "source": "/ctr-iak-pidvyshchyty-pokaznyk-klikabelnosti/",
+      "destination": "/blog/ctr-iak-pidvyshchyty-pokaznyk-klikabelnosti/",
+      "permanent": false
+    },
+    {
+      "source": "/pravylne-vykorystannia-zaholovkiv-h1-h6-dlia-seo-ta-zruchnosti-korystuvacha",
+      "destination": "/blog/pravylne-vykorystannia-zaholovkiv-h1-h6-dlia-seo-ta-zruchnosti-korystuvacha/",
+      "permanent": false
+    },
+    {
+      "source": "/pravylne-vykorystannia-zaholovkiv-h1-h6-dlia-seo-ta-zruchnosti-korystuvacha/",
+      "destination": "/blog/pravylne-vykorystannia-zaholovkiv-h1-h6-dlia-seo-ta-zruchnosti-korystuvacha/",
+      "permanent": false
+    },
+    {
+      "source": "/nova-formula-dlya-rozrahunku-rejtingu-ogoloshen-v-google-adwords",
+      "destination": "/blog/nova-formula-dlya-rozrahunku-rejtingu-ogoloshen-v-google-adwords/",
+      "permanent": false
+    },
+    {
+      "source": "/nova-formula-dlya-rozrahunku-rejtingu-ogoloshen-v-google-adwords/",
+      "destination": "/blog/nova-formula-dlya-rozrahunku-rejtingu-ogoloshen-v-google-adwords/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pereviryty-statystyku-vidviduvanosti-sajtu",
+      "destination": "/blog/iak-pereviryty-statystyku-vidviduvanosti-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/iak-pereviryty-statystyku-vidviduvanosti-sajtu/",
+      "destination": "/blog/iak-pereviryty-statystyku-vidviduvanosti-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/populjarnye-onlajn-servisy-dlja-bystrogo-sokrashhenija-ssylok",
+      "destination": "/ru/blog/populjarnye-onlajn-servisy-dlja-bystrogo-sokrashhenija-ssylok/",
+      "permanent": false
+    },
+    {
+      "source": "/populjarnye-onlajn-servisy-dlja-bystrogo-sokrashhenija-ssylok/",
+      "destination": "/ru/blog/populjarnye-onlajn-servisy-dlja-bystrogo-sokrashhenija-ssylok/",
+      "permanent": false
+    },
+    {
+      "source": "/ppc-vs-seo-chto-luchshe-dlya-vashego-sajta",
+      "destination": "/ru/blog/ppc-vs-seo-chto-luchshe-dlya-vashego-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/ppc-vs-seo-chto-luchshe-dlya-vashego-sajta/",
+      "destination": "/ru/blog/ppc-vs-seo-chto-luchshe-dlya-vashego-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-ppc-prodvizheniyu-torgovo-razvlekatelnogo-kompleksa",
+      "destination": "/ru/blog/kejs-po-ppc-prodvizheniyu-torgovo-razvlekatelnogo-kompleksa/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-ppc-prodvizheniyu-torgovo-razvlekatelnogo-kompleksa/",
+      "destination": "/ru/blog/kejs-po-ppc-prodvizheniyu-torgovo-razvlekatelnogo-kompleksa/",
+      "permanent": false
+    },
+    {
+      "source": "/google-tag-manager-chto-jeto-takoe-kak-nastroit-i-ustanovit-gtm",
+      "destination": "/ru/blog/google-tag-manager-chto-jeto-takoe-kak-nastroit-i-ustanovit-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/google-tag-manager-chto-jeto-takoe-kak-nastroit-i-ustanovit-gtm/",
+      "destination": "/ru/blog/google-tag-manager-chto-jeto-takoe-kak-nastroit-i-ustanovit-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoye-seo-audit-sayta-chek-list-kompanii-seomarket",
+      "destination": "/ru/blog/chto-takoye-seo-audit-sayta-chek-list-kompanii-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoye-seo-audit-sayta-chek-list-kompanii-seomarket/",
+      "destination": "/ru/blog/chto-takoye-seo-audit-sayta-chek-list-kompanii-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-narastit-ssylochnuju-massu-na-sajt",
+      "destination": "/ru/blog/kak-narastit-ssylochnuju-massu-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-narastit-ssylochnuju-massu-na-sajt/",
+      "destination": "/ru/blog/kak-narastit-ssylochnuju-massu-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prodvizheniyu-sajta-shvejnyh-mashinok",
+      "destination": "/ru/blog/kejs-po-seo-prodvizheniyu-sajta-shvejnyh-mashinok/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prodvizheniyu-sajta-shvejnyh-mashinok/",
+      "destination": "/ru/blog/kejs-po-seo-prodvizheniyu-sajta-shvejnyh-mashinok/",
+      "permanent": false
+    },
+    {
+      "source": "/osobennosti-prodvizheniyu-agrarnogo-internet-magazina",
+      "destination": "/ru/blog/osobennosti-prodvizheniyu-agrarnogo-internet-magazina/",
+      "permanent": false
+    },
+    {
+      "source": "/osobennosti-prodvizheniyu-agrarnogo-internet-magazina/",
+      "destination": "/ru/blog/osobennosti-prodvizheniyu-agrarnogo-internet-magazina/",
+      "permanent": false
+    },
+    {
+      "source": "/registracija-v-katalogah-stoit-li",
+      "destination": "/ru/blog/registracija-v-katalogah-stoit-li/",
+      "permanent": false
+    },
+    {
+      "source": "/registracija-v-katalogah-stoit-li/",
+      "destination": "/ru/blog/registracija-v-katalogah-stoit-li/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-perevesti-video-v-tekst",
+      "destination": "/ru/blog/kak-perevesti-video-v-tekst/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-perevesti-video-v-tekst/",
+      "destination": "/ru/blog/kak-perevesti-video-v-tekst/",
+      "permanent": false
+    },
+    {
+      "source": "/otsledit-trafik-sms-rassylok-legko",
+      "destination": "/ru/blog/otsledit-trafik-sms-rassylok-legko/",
+      "permanent": false
+    },
+    {
+      "source": "/otsledit-trafik-sms-rassylok-legko/",
+      "destination": "/ru/blog/otsledit-trafik-sms-rassylok-legko/",
+      "permanent": false
+    },
+    {
+      "source": "/osobennosti-seo-marketinga",
+      "destination": "/ru/blog/osobennosti-seo-marketinga/",
+      "permanent": false
+    },
+    {
+      "source": "/osobennosti-seo-marketinga/",
+      "destination": "/ru/blog/osobennosti-seo-marketinga/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prodvizheniyu-magazina-brendovoj-obuvi-i-aksessuarov",
+      "destination": "/ru/blog/kejs-po-seo-prodvizheniyu-magazina-brendovoj-obuvi-i-aksessuarov/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prodvizheniyu-magazina-brendovoj-obuvi-i-aksessuarov/",
+      "destination": "/ru/blog/kejs-po-seo-prodvizheniyu-magazina-brendovoj-obuvi-i-aksessuarov/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-b2b-prodazhy",
+      "destination": "/ru/blog/chto-takoe-b2b-prodazhy/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-b2b-prodazhy/",
+      "destination": "/ru/blog/chto-takoe-b2b-prodazhy/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-dayot-ustanovka-google-analytics-na-sajt",
+      "destination": "/ru/blog/chto-dayot-ustanovka-google-analytics-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-dayot-ustanovka-google-analytics-na-sajt/",
+      "destination": "/ru/blog/chto-dayot-ustanovka-google-analytics-na-sajt/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-kopirajting-ostorozhno-obman",
+      "destination": "/ru/blog/seo-kopirajting-ostorozhno-obman/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-kopirajting-ostorozhno-obman/",
+      "destination": "/ru/blog/seo-kopirajting-ostorozhno-obman/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-affiliaty-i-pochemu-ih-stoit-boyatsya",
+      "destination": "/ru/blog/chto-takoe-affiliaty-i-pochemu-ih-stoit-boyatsya/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-affiliaty-i-pochemu-ih-stoit-boyatsya/",
+      "destination": "/ru/blog/chto-takoe-affiliaty-i-pochemu-ih-stoit-boyatsya/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-rabotaet-monetizacija-v-tiktok-i-kak-nachat-zarabatyvat",
+      "destination": "/ru/blog/kak-rabotaet-monetizacija-v-tiktok-i-kak-nachat-zarabatyvat/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-rabotaet-monetizacija-v-tiktok-i-kak-nachat-zarabatyvat/",
+      "destination": "/ru/blog/kak-rabotaet-monetizacija-v-tiktok-i-kak-nachat-zarabatyvat/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovnye-faktory-ranzhirovaniya-veb-sajtov-v-google-v-2021-godu",
+      "destination": "/ru/blog/osnovnye-faktory-ranzhirovaniya-veb-sajtov-v-google-v-2021-godu/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovnye-faktory-ranzhirovaniya-veb-sajtov-v-google-v-2021-godu/",
+      "destination": "/ru/blog/osnovnye-faktory-ranzhirovaniya-veb-sajtov-v-google-v-2021-godu/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-sozdat-vnutrennij-poisk-na-sajte",
+      "destination": "/ru/blog/kak-sozdat-vnutrennij-poisk-na-sajte/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-sozdat-vnutrennij-poisk-na-sajte/",
+      "destination": "/ru/blog/kak-sozdat-vnutrennij-poisk-na-sajte/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-zapusku-online-reklamy-dlya-seti-magazinov-muzhskoj-odezhdy",
+      "destination": "/ru/blog/kejs-po-zapusku-online-reklamy-dlya-seti-magazinov-muzhskoj-odezhdy/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-zapusku-online-reklamy-dlya-seti-magazinov-muzhskoj-odezhdy/",
+      "destination": "/ru/blog/kejs-po-zapusku-online-reklamy-dlya-seti-magazinov-muzhskoj-odezhdy/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobitsja-proryvnyh-rezultatov-sajta-sozdavaja-ego-s-uchetom-seo-rekomendacij",
+      "destination": "/ru/blog/kak-dobitsja-proryvnyh-rezultatov-sajta-sozdavaja-ego-s-uchetom-seo-rekomendacij/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobitsja-proryvnyh-rezultatov-sajta-sozdavaja-ego-s-uchetom-seo-rekomendacij/",
+      "destination": "/ru/blog/kak-dobitsja-proryvnyh-rezultatov-sajta-sozdavaja-ego-s-uchetom-seo-rekomendacij/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-mariemur-com",
+      "destination": "/ru/blog/kejs-seo-mariemur-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-mariemur-com/",
+      "destination": "/ru/blog/kejs-seo-mariemur-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prodvizheniyu-sajta-ohrannyh-sistem",
+      "destination": "/ru/blog/kejs-po-seo-prodvizheniyu-sajta-ohrannyh-sistem/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-seo-prodvizheniyu-sajta-ohrannyh-sistem/",
+      "destination": "/ru/blog/kejs-po-seo-prodvizheniyu-sajta-ohrannyh-sistem/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-roi-kak-poschitat-pokazatel-i-pochemu-on-vazhen",
+      "destination": "/ru/blog/chto-takoe-roi-kak-poschitat-pokazatel-i-pochemu-on-vazhen/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-roi-kak-poschitat-pokazatel-i-pochemu-on-vazhen/",
+      "destination": "/ru/blog/chto-takoe-roi-kak-poschitat-pokazatel-i-pochemu-on-vazhen/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-reklamnoj-ppc-kampanii-internet-magazina-fototehniki",
+      "destination": "/ru/blog/kejs-po-reklamnoj-ppc-kampanii-internet-magazina-fototehniki/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-reklamnoj-ppc-kampanii-internet-magazina-fototehniki/",
+      "destination": "/ru/blog/kejs-po-reklamnoj-ppc-kampanii-internet-magazina-fototehniki/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-arbitrazh-trafika",
+      "destination": "/ru/blog/chto-takoe-arbitrazh-trafika/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-arbitrazh-trafika/",
+      "destination": "/ru/blog/chto-takoe-arbitrazh-trafika/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-provesti-analiz-snippetov-v-poiskovoj-vydache",
+      "destination": "/ru/blog/kak-provesti-analiz-snippetov-v-poiskovoj-vydache/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-provesti-analiz-snippetov-v-poiskovoj-vydache/",
+      "destination": "/ru/blog/kak-provesti-analiz-snippetov-v-poiskovoj-vydache/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-prodvigat-posty-v-instagram",
+      "destination": "/ru/blog/kak-prodvigat-posty-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-prodvigat-posty-v-instagram/",
+      "destination": "/ru/blog/kak-prodvigat-posty-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-kompaniju-na-google-maps",
+      "destination": "/ru/blog/kak-dobavit-kompaniju-na-google-maps/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-kompaniju-na-google-maps/",
+      "destination": "/ru/blog/kak-dobavit-kompaniju-na-google-maps/",
+      "permanent": false
+    },
+    {
+      "source": "/keys-po-seo-prodvijeniyu-online-skoly-treningov",
+      "destination": "/ru/blog/keys-po-seo-prodvijeniyu-online-skoly-treningov/",
+      "permanent": false
+    },
+    {
+      "source": "/keys-po-seo-prodvijeniyu-online-skoly-treningov/",
+      "destination": "/ru/blog/keys-po-seo-prodvijeniyu-online-skoly-treningov/",
+      "permanent": false
+    },
+    {
+      "source": "/prototip-sajta-zachem-on-nuzhen-i-kak-sozdat-ego-samostojatelno",
+      "destination": "/ru/blog/prototip-sajta-zachem-on-nuzhen-i-kak-sozdat-ego-samostojatelno/",
+      "permanent": false
+    },
+    {
+      "source": "/prototip-sajta-zachem-on-nuzhen-i-kak-sozdat-ego-samostojatelno/",
+      "destination": "/ru/blog/prototip-sajta-zachem-on-nuzhen-i-kak-sozdat-ego-samostojatelno/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-facebook-ads-manager-i-kak-s-nim-rabotat",
+      "destination": "/ru/blog/chto-takoe-facebook-ads-manager-i-kak-s-nim-rabotat/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-facebook-ads-manager-i-kak-s-nim-rabotat/",
+      "destination": "/ru/blog/chto-takoe-facebook-ads-manager-i-kak-s-nim-rabotat/",
+      "permanent": false
+    },
+    {
+      "source": "/klasterizacziya-semanticheskogo-yadra",
+      "destination": "/ru/blog/klasterizacziya-semanticheskogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/klasterizacziya-semanticheskogo-yadra/",
+      "destination": "/ru/blog/klasterizacziya-semanticheskogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-proverit-sajt-na-virusy",
+      "destination": "/ru/blog/kak-proverit-sajt-na-virusy/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-proverit-sajt-na-virusy/",
+      "destination": "/ru/blog/kak-proverit-sajt-na-virusy/",
+      "permanent": false
+    },
+    {
+      "source": "/ctr-kak-povysit-pokazatel-klikabelnosti",
+      "destination": "/ru/blog/ctr-kak-povysit-pokazatel-klikabelnosti/",
+      "permanent": false
+    },
+    {
+      "source": "/ctr-kak-povysit-pokazatel-klikabelnosti/",
+      "destination": "/ru/blog/ctr-kak-povysit-pokazatel-klikabelnosti/",
+      "permanent": false
+    },
+    {
+      "source": "/pravilnoe-ispolzovanie-zagolovkov-h1-h6-dlja-seo-i-udobstva-polzovatelja",
+      "destination": "/ru/blog/pravilnoe-ispolzovanie-zagolovkov-h1-h6-dlja-seo-i-udobstva-polzovatelja/",
+      "permanent": false
+    },
+    {
+      "source": "/pravilnoe-ispolzovanie-zagolovkov-h1-h6-dlja-seo-i-udobstva-polzovatelja/",
+      "destination": "/ru/blog/pravilnoe-ispolzovanie-zagolovkov-h1-h6-dlja-seo-i-udobstva-polzovatelja/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-referensy-i-kak-ih-pravilno-ispolzovat",
+      "destination": "/ru/blog/chto-takoe-referensy-i-kak-ih-pravilno-ispolzovat/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-referensy-i-kak-ih-pravilno-ispolzovat/",
+      "destination": "/ru/blog/chto-takoe-referensy-i-kak-ih-pravilno-ispolzovat/",
+      "permanent": false
+    },
+    {
+      "source": "/uvelichili-organicheskij-trafik-na-144-dlja-internet-magazina-premialnogo-alkogolja",
+      "destination": "/ru/blog/uvelichili-organicheskij-trafik-na-144-dlja-internet-magazina-premialnogo-alkogolja/",
+      "permanent": false
+    },
+    {
+      "source": "/uvelichili-organicheskij-trafik-na-144-dlja-internet-magazina-premialnogo-alkogolja/",
+      "destination": "/ru/blog/uvelichili-organicheskij-trafik-na-144-dlja-internet-magazina-premialnogo-alkogolja/",
+      "permanent": false
+    },
+    {
+      "source": "/zakon-ob-ukrainskom-yazyke-5670-d-i-vliyanie-na-seo",
+      "destination": "/ru/blog/zakon-ob-ukrainskom-yazyke-5670-d-i-vliyanie-na-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/zakon-ob-ukrainskom-yazyke-5670-d-i-vliyanie-na-seo/",
+      "destination": "/ru/blog/zakon-ob-ukrainskom-yazyke-5670-d-i-vliyanie-na-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/oshibki-landing-page-kotorye-snizhajut-konversiju",
+      "destination": "/ru/blog/oshibki-landing-page-kotorye-snizhajut-konversiju/",
+      "permanent": false
+    },
+    {
+      "source": "/oshibki-landing-page-kotorye-snizhajut-konversiju/",
+      "destination": "/ru/blog/oshibki-landing-page-kotorye-snizhajut-konversiju/",
+      "permanent": false
+    },
+    {
+      "source": "/dinamicheskij-tovarnyj-remarketing-dlya-google-adwords-with-google-tag-manager",
+      "destination": "/ru/blog/dinamicheskij-tovarnyj-remarketing-dlya-google-adwords-with-google-tag-manager/",
+      "permanent": false
+    },
+    {
+      "source": "/dinamicheskij-tovarnyj-remarketing-dlya-google-adwords-with-google-tag-manager/",
+      "destination": "/ru/blog/dinamicheskij-tovarnyj-remarketing-dlya-google-adwords-with-google-tag-manager/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-cdn-i-kak-ego-nastroit",
+      "destination": "/ru/blog/chto-takoe-cdn-i-kak-ego-nastroit/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-cdn-i-kak-ego-nastroit/",
+      "destination": "/ru/blog/chto-takoe-cdn-i-kak-ego-nastroit/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-ltv-klienta-kak-schitaetsja-pokazatel-i-pochemu-on-vazhen",
+      "destination": "/ru/blog/chto-takoe-ltv-klienta-kak-schitaetsja-pokazatel-i-pochemu-on-vazhen/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-ltv-klienta-kak-schitaetsja-pokazatel-i-pochemu-on-vazhen/",
+      "destination": "/ru/blog/chto-takoe-ltv-klienta-kak-schitaetsja-pokazatel-i-pochemu-on-vazhen/",
+      "permanent": false
+    },
+    {
+      "source": "/performance-kejs-dlya-seti-azs",
+      "destination": "/ru/blog/performance-kejs-dlya-seti-azs/",
+      "permanent": false
+    },
+    {
+      "source": "/performance-kejs-dlya-seti-azs/",
+      "destination": "/ru/blog/performance-kejs-dlya-seti-azs/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-google-data-studio",
+      "destination": "/ru/blog/chto-takoe-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-google-data-studio/",
+      "destination": "/ru/blog/chto-takoe-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/effektivnoe-i-bezopasnoe-ssylochnoe-prodvizhenie-dlya-belyh-proektov",
+      "destination": "/ru/blog/effektivnoe-i-bezopasnoe-ssylochnoe-prodvizhenie-dlya-belyh-proektov/",
+      "permanent": false
+    },
+    {
+      "source": "/effektivnoe-i-bezopasnoe-ssylochnoe-prodvizhenie-dlya-belyh-proektov/",
+      "destination": "/ru/blog/effektivnoe-i-bezopasnoe-ssylochnoe-prodvizhenie-dlya-belyh-proektov/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-otslezhivat-informacziyu-s-neskolkih-poddomenov",
+      "destination": "/ru/blog/kak-otslezhivat-informacziyu-s-neskolkih-poddomenov/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-otslezhivat-informacziyu-s-neskolkih-poddomenov/",
+      "destination": "/ru/blog/kak-otslezhivat-informacziyu-s-neskolkih-poddomenov/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-scrambleup-com",
+      "destination": "/ru/blog/kejs-seo-scrambleup-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-scrambleup-com/",
+      "destination": "/ru/blog/kejs-seo-scrambleup-com/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-otslezhivat-prosmotr-videorolikov-na-svoem-sajte",
+      "destination": "/ru/blog/kak-otslezhivat-prosmotr-videorolikov-na-svoem-sajte/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-otslezhivat-prosmotr-videorolikov-na-svoem-sajte/",
+      "destination": "/ru/blog/kak-otslezhivat-prosmotr-videorolikov-na-svoem-sajte/",
+      "permanent": false
+    },
+    {
+      "source": "/mnogokanalnye-posledovatelnosti-v-google-analytics",
+      "destination": "/ru/blog/mnogokanalnye-posledovatelnosti-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/mnogokanalnye-posledovatelnosti-v-google-analytics/",
+      "destination": "/ru/blog/mnogokanalnye-posledovatelnosti-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-uznat-dvizhok-sajta",
+      "destination": "/ru/blog/kak-uznat-dvizhok-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-uznat-dvizhok-sajta/",
+      "destination": "/ru/blog/kak-uznat-dvizhok-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-my-snizili-stoimost-konversii-na-25-s-kontekstnoj-reklamy-v-e-commerce-nishe",
+      "destination": "/ru/blog/kak-my-snizili-stoimost-konversii-na-25-s-kontekstnoj-reklamy-v-e-commerce-nishe/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-my-snizili-stoimost-konversii-na-25-s-kontekstnoj-reklamy-v-e-commerce-nishe/",
+      "destination": "/ru/blog/kak-my-snizili-stoimost-konversii-na-25-s-kontekstnoj-reklamy-v-e-commerce-nishe/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-bezankornye-ssylki-i-zachem-oni-nuzhny",
+      "destination": "/ru/blog/chto-takoe-bezankornye-ssylki-i-zachem-oni-nuzhny/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-bezankornye-ssylki-i-zachem-oni-nuzhny/",
+      "destination": "/ru/blog/chto-takoe-bezankornye-ssylki-i-zachem-oni-nuzhny/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-kraud-ssylki",
+      "destination": "/ru/blog/chto-takoe-kraud-ssylki/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-kraud-ssylki/",
+      "destination": "/ru/blog/chto-takoe-kraud-ssylki/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-novogo-polzovatelya-v-goolge-analytics",
+      "destination": "/ru/blog/kak-dobavit-novogo-polzovatelya-v-goolge-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-novogo-polzovatelya-v-goolge-analytics/",
+      "destination": "/ru/blog/kak-dobavit-novogo-polzovatelya-v-goolge-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-trast-sajta-i-kak-ego-uznat",
+      "destination": "/ru/blog/chto-takoe-trast-sajta-i-kak-ego-uznat/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-trast-sajta-i-kak-ego-uznat/",
+      "destination": "/ru/blog/chto-takoe-trast-sajta-i-kak-ego-uznat/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-vodjanoj-znak-i-gde-on-ispolzuetsja",
+      "destination": "/ru/blog/chto-takoe-vodjanoj-znak-i-gde-on-ispolzuetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-vodjanoj-znak-i-gde-on-ispolzuetsja/",
+      "destination": "/ru/blog/chto-takoe-vodjanoj-znak-i-gde-on-ispolzuetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/kto-takoj-kontent-menedzher-i-chem-on-zanimaetsja",
+      "destination": "/ru/blog/kto-takoj-kontent-menedzher-i-chem-on-zanimaetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/kto-takoj-kontent-menedzher-i-chem-on-zanimaetsja/",
+      "destination": "/ru/blog/kto-takoj-kontent-menedzher-i-chem-on-zanimaetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-my-uvelichili-pokazatel-rentabelnosti-investicij-pochti-v-2-raza",
+      "destination": "/ru/blog/kak-my-uvelichili-pokazatel-rentabelnosti-investicij-pochti-v-2-raza/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-my-uvelichili-pokazatel-rentabelnosti-investicij-pochti-v-2-raza/",
+      "destination": "/ru/blog/kak-my-uvelichili-pokazatel-rentabelnosti-investicij-pochti-v-2-raza/",
+      "permanent": false
+    },
+    {
+      "source": "/redirekt-chto-takoe-i-kakie-vidy-byvajut",
+      "destination": "/ru/blog/redirekt-chto-takoe-i-kakie-vidy-byvajut/",
+      "permanent": false
+    },
+    {
+      "source": "/redirekt-chto-takoe-i-kakie-vidy-byvajut/",
+      "destination": "/ru/blog/redirekt-chto-takoe-i-kakie-vidy-byvajut/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analiz-sajtov-konkurentov-podhod-instrumentarij",
+      "destination": "/ru/blog/seo-analiz-sajtov-konkurentov-podhod-instrumentarij/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analiz-sajtov-konkurentov-podhod-instrumentarij/",
+      "destination": "/ru/blog/seo-analiz-sajtov-konkurentov-podhod-instrumentarij/",
+      "permanent": false
+    },
+    {
+      "source": "/digital-marketing-osnovnye-ponjatija-i-instrumenty",
+      "destination": "/ru/blog/digital-marketing-osnovnye-ponjatija-i-instrumenty/",
+      "permanent": false
+    },
+    {
+      "source": "/digital-marketing-osnovnye-ponjatija-i-instrumenty/",
+      "destination": "/ru/blog/digital-marketing-osnovnye-ponjatija-i-instrumenty/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-proverit-statistiku-poseshhaemosti-sajta",
+      "destination": "/ru/blog/kak-proverit-statistiku-poseshhaemosti-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-proverit-statistiku-poseshhaemosti-sajta/",
+      "destination": "/ru/blog/kak-proverit-statistiku-poseshhaemosti-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovnye-seo-metriki",
+      "destination": "/ru/blog/osnovnye-seo-metriki/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovnye-seo-metriki/",
+      "destination": "/ru/blog/osnovnye-seo-metriki/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-prodvizhenie-dlja-avtoservisa-650-organicheskogo-trafika-v-den-za-10-mesjacev-sotrudnichestva",
+      "destination": "/ru/blog/seo-prodvizhenie-dlja-avtoservisa-650-organicheskogo-trafika-v-den-za-10-mesjacev-sotrudnichestva/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-prodvizhenie-dlja-avtoservisa-650-organicheskogo-trafika-v-den-za-10-mesjacev-sotrudnichestva/",
+      "destination": "/ru/blog/seo-prodvizhenie-dlja-avtoservisa-650-organicheskogo-trafika-v-den-za-10-mesjacev-sotrudnichestva/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-sayt-v-google-news",
+      "destination": "/ru/blog/kak-dobavit-sayt-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-sayt-v-google-news/",
+      "destination": "/ru/blog/kak-dobavit-sayt-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-strategija-prodvizhenija-dlja-internet-magazina-s-sezonnymi-tovarami",
+      "destination": "/ru/blog/seo-strategija-prodvizhenija-dlja-internet-magazina-s-sezonnymi-tovarami/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-strategija-prodvizhenija-dlja-internet-magazina-s-sezonnymi-tovarami/",
+      "destination": "/ru/blog/seo-strategija-prodvizhenija-dlja-internet-magazina-s-sezonnymi-tovarami/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-dobavleniyu-portala-v-google-news",
+      "destination": "/ru/blog/kejs-po-dobavleniyu-portala-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-po-dobavleniyu-portala-v-google-news/",
+      "destination": "/ru/blog/kejs-po-dobavleniyu-portala-v-google-news/",
+      "permanent": false
+    },
+    {
+      "source": "/301-redirekt-chto-soboj-predstavljaet-instrument-i-kakie-osobennosti-ego-nastrojki",
+      "destination": "/ru/blog/301-redirekt-chto-soboj-predstavljaet-instrument-i-kakie-osobennosti-ego-nastrojki/",
+      "permanent": false
+    },
+    {
+      "source": "/301-redirekt-chto-soboj-predstavljaet-instrument-i-kakie-osobennosti-ego-nastrojki/",
+      "destination": "/ru/blog/301-redirekt-chto-soboj-predstavljaet-instrument-i-kakie-osobennosti-ego-nastrojki/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-uvelichit-vashu-klikabelnost-v-8-prostyh-shagov",
+      "destination": "/ru/blog/kak-uvelichit-vashu-klikabelnost-v-8-prostyh-shagov/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-uvelichit-vashu-klikabelnost-v-8-prostyh-shagov/",
+      "destination": "/ru/blog/kak-uvelichit-vashu-klikabelnost-v-8-prostyh-shagov/",
+      "permanent": false
+    },
+    {
+      "source": "/kto-takoj-seo-specialist-i-chem-on-zanimaetsja",
+      "destination": "/ru/blog/kto-takoj-seo-specialist-i-chem-on-zanimaetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/kto-takoj-seo-specialist-i-chem-on-zanimaetsja/",
+      "destination": "/ru/blog/kto-takoj-seo-specialist-i-chem-on-zanimaetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-avtivna-com-ua",
+      "destination": "/ru/blog/kejs-seo-avtivna-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kejs-seo-avtivna-com-ua/",
+      "destination": "/ru/blog/kejs-seo-avtivna-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-analizirovat-aukcziony-s-pomoshhyu-google-data-studio",
+      "destination": "/ru/blog/kak-analizirovat-aukcziony-s-pomoshhyu-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-analizirovat-aukcziony-s-pomoshhyu-google-data-studio/",
+      "destination": "/ru/blog/kak-analizirovat-aukcziony-s-pomoshhyu-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/intervyu-s-didzhital-analitikom-iz-czitrusa-yuliej-kosyuk",
+      "destination": "/ru/blog/intervyu-s-didzhital-analitikom-iz-czitrusa-yuliej-kosyuk/",
+      "permanent": false
+    },
+    {
+      "source": "/intervyu-s-didzhital-analitikom-iz-czitrusa-yuliej-kosyuk/",
+      "destination": "/ru/blog/intervyu-s-didzhital-analitikom-iz-czitrusa-yuliej-kosyuk/",
+      "permanent": false
+    },
+    {
+      "source": "/meta-tegi-dlya-seo-kak-pravilno-sostavit-h1-title-i-description",
+      "destination": "/ru/blog/meta-tegi-dlya-seo-kak-pravilno-sostavit-h1-title-i-description/",
+      "permanent": false
+    },
+    {
+      "source": "/meta-tegi-dlya-seo-kak-pravilno-sostavit-h1-title-i-description/",
+      "destination": "/ru/blog/meta-tegi-dlya-seo-kak-pravilno-sostavit-h1-title-i-description/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-bannernaja-reklama-i-principy-ee-raboty",
+      "destination": "/ru/blog/chto-takoe-bannernaja-reklama-i-principy-ee-raboty/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-bannernaja-reklama-i-principy-ee-raboty/",
+      "destination": "/ru/blog/chto-takoe-bannernaja-reklama-i-principy-ee-raboty/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analiz-teksta-kljuchevye-aspekty-optimizacii-kontenta",
+      "destination": "/ru/blog/seo-analiz-teksta-kljuchevye-aspekty-optimizacii-kontenta/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analiz-teksta-kljuchevye-aspekty-optimizacii-kontenta/",
+      "destination": "/ru/blog/seo-analiz-teksta-kljuchevye-aspekty-optimizacii-kontenta/",
+      "permanent": false
+    },
+    {
+      "source": "/akcija-6-j-mesjac-sotrudnichestva-v-podarok",
+      "destination": "/ru/blog/akcija-6-j-mesjac-sotrudnichestva-v-podarok/",
+      "permanent": false
+    },
+    {
+      "source": "/akcija-6-j-mesjac-sotrudnichestva-v-podarok/",
+      "destination": "/ru/blog/akcija-6-j-mesjac-sotrudnichestva-v-podarok/",
+      "permanent": false
+    },
+    {
+      "source": "/cpm-chto-jeto-takoe-kak-primenjaetsja-v-reklame",
+      "destination": "/ru/blog/cpm-chto-jeto-takoe-kak-primenjaetsja-v-reklame/",
+      "permanent": false
+    },
+    {
+      "source": "/cpm-chto-jeto-takoe-kak-primenjaetsja-v-reklame/",
+      "destination": "/ru/blog/cpm-chto-jeto-takoe-kak-primenjaetsja-v-reklame/",
+      "permanent": false
+    },
+    {
+      "source": "/referalnyj-spam-chto-takoe-i-kak-s-nim-borotsya",
+      "destination": "/ru/blog/referalnyj-spam-chto-takoe-i-kak-s-nim-borotsya/",
+      "permanent": false
+    },
+    {
+      "source": "/referalnyj-spam-chto-takoe-i-kak-s-nim-borotsya/",
+      "destination": "/ru/blog/referalnyj-spam-chto-takoe-i-kak-s-nim-borotsya/",
+      "permanent": false
+    },
+    {
+      "source": "/novaya-formula-dlya-rascheta-rejtinga-obyavlenij-v-google-adwords",
+      "destination": "/ru/blog/novaya-formula-dlya-rascheta-rejtinga-obyavlenij-v-google-adwords/",
+      "permanent": false
+    },
+    {
+      "source": "/novaya-formula-dlya-rascheta-rejtinga-obyavlenij-v-google-adwords/",
+      "destination": "/ru/blog/novaya-formula-dlya-rascheta-rejtinga-obyavlenij-v-google-adwords/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovnye-vidy-kontenta-i-kak-ih-pravilno-oformljat",
+      "destination": "/ru/blog/osnovnye-vidy-kontenta-i-kak-ih-pravilno-oformljat/",
+      "permanent": false
+    },
+    {
+      "source": "/osnovnye-vidy-kontenta-i-kak-ih-pravilno-oformljat/",
+      "destination": "/ru/blog/osnovnye-vidy-kontenta-i-kak-ih-pravilno-oformljat/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-polzovatsja-servisom-google-trends",
+      "destination": "/ru/blog/kak-polzovatsja-servisom-google-trends/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-polzovatsja-servisom-google-trends/",
+      "destination": "/ru/blog/kak-polzovatsja-servisom-google-trends/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-tehnicheskij-seo-audit-pomog-uvelichit-kolichestvo-organicheskogo-trafika-na-1275",
+      "destination": "/ru/blog/kak-tehnicheskij-seo-audit-pomog-uvelichit-kolichestvo-organicheskogo-trafika-na-1275/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-tehnicheskij-seo-audit-pomog-uvelichit-kolichestvo-organicheskogo-trafika-na-1275/",
+      "destination": "/ru/blog/kak-tehnicheskij-seo-audit-pomog-uvelichit-kolichestvo-organicheskogo-trafika-na-1275/",
+      "permanent": false
+    },
+    {
+      "source": "/gmail-sponsored-promotions-kak-eto-rabotaet-i-dlya-chego-eto-nuzhno",
+      "destination": "/ru/blog/gmail-sponsored-promotions-kak-eto-rabotaet-i-dlya-chego-eto-nuzhno/",
+      "permanent": false
+    },
+    {
+      "source": "/gmail-sponsored-promotions-kak-eto-rabotaet-i-dlya-chego-eto-nuzhno/",
+      "destination": "/ru/blog/gmail-sponsored-promotions-kak-eto-rabotaet-i-dlya-chego-eto-nuzhno/",
+      "permanent": false
+    },
+    {
+      "source": "/tipy-czelej-v-google-analytics",
+      "destination": "/ru/blog/tipy-czelej-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/tipy-czelej-v-google-analytics/",
+      "destination": "/ru/blog/tipy-czelej-v-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-sajt-v-google-search-console",
+      "destination": "/ru/blog/kak-dobavit-sajt-v-google-search-console/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-dobavit-sajt-v-google-search-console/",
+      "destination": "/ru/blog/kak-dobavit-sajt-v-google-search-console/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-rabotajut-algoritmy-tiktok-objasnenie-prostymi-slovami",
+      "destination": "/ru/blog/kak-rabotajut-algoritmy-tiktok-objasnenie-prostymi-slovami/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-rabotajut-algoritmy-tiktok-objasnenie-prostymi-slovami/",
+      "destination": "/ru/blog/kak-rabotajut-algoritmy-tiktok-objasnenie-prostymi-slovami/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-sostavit-marketingovuju-strategiju",
+      "destination": "/ru/blog/kak-sostavit-marketingovuju-strategiju/",
+      "permanent": false
+    },
+    {
+      "source": "/kak-sostavit-marketingovuju-strategiju/",
+      "destination": "/ru/blog/kak-sostavit-marketingovuju-strategiju/",
+      "permanent": false
+    },
+    {
+      "source": "/google-search-console-webmaster-tools-prostoe-rukovodstvo-dlja-nachinajushhih",
+      "destination": "/ru/blog/google-search-console-webmaster-tools-prostoe-rukovodstvo-dlja-nachinajushhih/",
+      "permanent": false
+    },
+    {
+      "source": "/google-search-console-webmaster-tools-prostoe-rukovodstvo-dlja-nachinajushhih/",
+      "destination": "/ru/blog/google-search-console-webmaster-tools-prostoe-rukovodstvo-dlja-nachinajushhih/",
+      "permanent": false
+    },
+    {
+      "source": "/luchshie-instrumenty-dlja-proverki-skorosti-zagruzki-sajta",
+      "destination": "/ru/blog/luchshie-instrumenty-dlja-proverki-skorosti-zagruzki-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/luchshie-instrumenty-dlja-proverki-skorosti-zagruzki-sajta/",
+      "destination": "/ru/blog/luchshie-instrumenty-dlja-proverki-skorosti-zagruzki-sajta/",
+      "permanent": false
+    },
+    {
+      "source": "/futer-sajta-chto-jeto-i-kak-oformit-podval-na-sajte",
+      "destination": "/ru/blog/futer-sajta-chto-jeto-i-kak-oformit-podval-na-sajte/",
+      "permanent": false
+    },
+    {
+      "source": "/futer-sajta-chto-jeto-i-kak-oformit-podval-na-sajte/",
+      "destination": "/ru/blog/futer-sajta-chto-jeto-i-kak-oformit-podval-na-sajte/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-vneshnie-seo-ssylki",
+      "destination": "/ru/blog/chto-takoe-vneshnie-seo-ssylki/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-vneshnie-seo-ssylki/",
+      "destination": "/ru/blog/chto-takoe-vneshnie-seo-ssylki/",
+      "permanent": false
+    },
+    {
+      "source": "/autrich-ssylki-chto-jeto-i-kak-pravilno-poluchit",
+      "destination": "/ru/blog/autrich-ssylki-chto-jeto-i-kak-pravilno-poluchit/",
+      "permanent": false
+    },
+    {
+      "source": "/autrich-ssylki-chto-jeto-i-kak-pravilno-poluchit/",
+      "destination": "/ru/blog/autrich-ssylki-chto-jeto-i-kak-pravilno-poluchit/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstnaja-reklama-google-vidy-celi-i-preimushhestva",
+      "destination": "/ru/blog/kontekstnaja-reklama-google-vidy-celi-i-preimushhestva/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstnaja-reklama-google-vidy-celi-i-preimushhestva/",
+      "destination": "/ru/blog/kontekstnaja-reklama-google-vidy-celi-i-preimushhestva/",
+      "permanent": false
+    },
+    {
+      "source": "/pochemu-sajt-ne-indeksiruetsja",
+      "destination": "/ru/blog/pochemu-sajt-ne-indeksiruetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/pochemu-sajt-ne-indeksiruetsja/",
+      "destination": "/ru/blog/pochemu-sajt-ne-indeksiruetsja/",
+      "permanent": false
+    },
+    {
+      "source": "/8-sovetov-kotorye-pomogut-vam-prodavat-tovary-cherez-soczialnye-seti",
+      "destination": "/ru/blog/8-sovetov-kotorye-pomogut-vam-prodavat-tovary-cherez-soczialnye-seti/",
+      "permanent": false
+    },
+    {
+      "source": "/8-sovetov-kotorye-pomogut-vam-prodavat-tovary-cherez-soczialnye-seti/",
+      "destination": "/ru/blog/8-sovetov-kotorye-pomogut-vam-prodavat-tovary-cherez-soczialnye-seti/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-semanticheskaja-verstka-i-zachem-ona-nuzhna-dlja-seo",
+      "destination": "/ru/blog/chto-takoe-semanticheskaja-verstka-i-zachem-ona-nuzhna-dlja-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/chto-takoe-semanticheskaja-verstka-i-zachem-ona-nuzhna-dlja-seo/",
+      "destination": "/ru/blog/chto-takoe-semanticheskaja-verstka-i-zachem-ona-nuzhna-dlja-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-prodvizhenie-dlja-ukrainian-developer",
+      "destination": "/ru/blog/seo-prodvizhenie-dlja-ukrainian-developer/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-prodvizhenie-dlja-ukrainian-developer/",
+      "destination": "/ru/blog/seo-prodvizhenie-dlja-ukrainian-developer/",
+      "permanent": false
+    },
+    {
+      "source": "/targetirovannaja-reklama-v-socsetjah-vidy-formaty-i-osobennosti",
+      "destination": "/ru/blog/targetirovannaja-reklama-v-socsetjah-vidy-formaty-i-osobennosti/",
+      "permanent": false
+    },
+    {
+      "source": "/targetirovannaja-reklama-v-socsetjah-vidy-formaty-i-osobennosti/",
+      "destination": "/ru/blog/targetirovannaja-reklama-v-socsetjah-vidy-formaty-i-osobennosti/",
+      "permanent": false
+    },
+    {
+      "source": "/uvelichenie-organicheskogo-trafika-na-20-dlja-strahovoj-kompanii",
+      "destination": "/ru/blog/uvelichenie-organicheskogo-trafika-na-20-dlja-strahovoj-kompanii/",
+      "permanent": false
+    },
+    {
+      "source": "/uvelichenie-organicheskogo-trafika-na-20-dlja-strahovoj-kompanii/",
+      "destination": "/ru/blog/uvelichenie-organicheskogo-trafika-na-20-dlja-strahovoj-kompanii/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-develop-a-marketing-strategy",
+      "destination": "/en/blog/how-to-develop-a-marketing-strategy/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-develop-a-marketing-strategy/",
+      "destination": "/en/blog/how-to-develop-a-marketing-strategy/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-google-data-studio",
+      "destination": "/en/blog/what-is-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-google-data-studio/",
+      "destination": "/en/blog/what-is-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-check-a-website-for-viruses",
+      "destination": "/en/blog/how-to-check-a-website-for-viruses/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-check-a-website-for-viruses/",
+      "destination": "/en/blog/how-to-check-a-website-for-viruses/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-site-audit-checklist-by-the-company-seomarket",
+      "destination": "/en/blog/seo-site-audit-checklist-by-the-company-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-site-audit-checklist-by-the-company-seomarket/",
+      "destination": "/en/blog/seo-site-audit-checklist-by-the-company-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-website-to-google-news-rules-requirements-and-recommendations",
+      "destination": "/en/blog/how-to-add-a-website-to-google-news-rules-requirements-and-recommendations/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-website-to-google-news-rules-requirements-and-recommendations/",
+      "destination": "/en/blog/how-to-add-a-website-to-google-news-rules-requirements-and-recommendations/",
+      "permanent": false
+    },
+    {
+      "source": "/referral-spam-what-it-is-and-how-to-deal-with-it",
+      "destination": "/en/blog/referral-spam-what-it-is-and-how-to-deal-with-it/",
+      "permanent": false
+    },
+    {
+      "source": "/referral-spam-what-it-is-and-how-to-deal-with-it/",
+      "destination": "/en/blog/referral-spam-what-it-is-and-how-to-deal-with-it/",
+      "permanent": false
+    },
+    {
+      "source": "/promotion-the-6th-month-of-cooperation-as-a-gift",
+      "destination": "/en/blog/promotion-the-6th-month-of-cooperation-as-a-gift/",
+      "permanent": false
+    },
+    {
+      "source": "/promotion-the-6th-month-of-cooperation-as-a-gift/",
+      "destination": "/en/blog/promotion-the-6th-month-of-cooperation-as-a-gift/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-avtivna-com-ua",
+      "destination": "/en/blog/seo-case-avtivna-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-avtivna-com-ua/",
+      "destination": "/en/blog/seo-case-avtivna-com-ua/",
+      "permanent": false
+    },
+    {
+      "source": "/features-of-seo-marketing",
+      "destination": "/en/blog/features-of-seo-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/features-of-seo-marketing/",
+      "destination": "/en/blog/features-of-seo-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/targeted-advertising-on-social-media-types-formats-and-features",
+      "destination": "/en/blog/targeted-advertising-on-social-media-types-formats-and-features/",
+      "permanent": false
+    },
+    {
+      "source": "/targeted-advertising-on-social-media-types-formats-and-features/",
+      "destination": "/en/blog/targeted-advertising-on-social-media-types-formats-and-features/",
+      "permanent": false
+    },
+    {
+      "source": "/increased-organic-traffic-by-144-for-a-premium-alcohol-online-store",
+      "destination": "/en/blog/increased-organic-traffic-by-144-for-a-premium-alcohol-online-store/",
+      "permanent": false
+    },
+    {
+      "source": "/increased-organic-traffic-by-144-for-a-premium-alcohol-online-store/",
+      "destination": "/en/blog/increased-organic-traffic-by-144-for-a-premium-alcohol-online-store/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-study-for-a-shoe-store",
+      "destination": "/en/blog/seo-case-study-for-a-shoe-store/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-study-for-a-shoe-store/",
+      "destination": "/en/blog/seo-case-study-for-a-shoe-store/",
+      "permanent": false
+    },
+    {
+      "source": "/case-study-on-ppc-promotion-of-a-shopping-and-entertainment-complex",
+      "destination": "/en/blog/case-study-on-ppc-promotion-of-a-shopping-and-entertainment-complex/",
+      "permanent": false
+    },
+    {
+      "source": "/case-study-on-ppc-promotion-of-a-shopping-and-entertainment-complex/",
+      "destination": "/en/blog/case-study-on-ppc-promotion-of-a-shopping-and-entertainment-complex/",
+      "permanent": false
+    },
+    {
+      "source": "/redirect-what-it-is-and-what-types-exist",
+      "destination": "/en/blog/redirect-what-it-is-and-what-types-exist/",
+      "permanent": false
+    },
+    {
+      "source": "/redirect-what-it-is-and-what-types-exist/",
+      "destination": "/en/blog/redirect-what-it-is-and-what-types-exist/",
+      "permanent": false
+    },
+    {
+      "source": "/outreach-links-what-they-are-and-how-to-obtain-them-correctly",
+      "destination": "/en/blog/outreach-links-what-they-are-and-how-to-obtain-them-correctly/",
+      "permanent": false
+    },
+    {
+      "source": "/outreach-links-what-they-are-and-how-to-obtain-them-correctly/",
+      "destination": "/en/blog/outreach-links-what-they-are-and-how-to-obtain-them-correctly/",
+      "permanent": false
+    },
+    {
+      "source": "/main-types-of-content-and-how-to-properly-format-them",
+      "destination": "/en/blog/main-types-of-content-and-how-to-properly-format-them/",
+      "permanent": false
+    },
+    {
+      "source": "/main-types-of-content-and-how-to-properly-format-them/",
+      "destination": "/en/blog/main-types-of-content-and-how-to-properly-format-them/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-optimization-of-meta-tags",
+      "destination": "/en/blog/seo-optimization-of-meta-tags/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-optimization-of-meta-tags/",
+      "destination": "/en/blog/seo-optimization-of-meta-tags/",
+      "permanent": false
+    },
+    {
+      "source": "/landing-page-mistakes-that-reduce-conversion",
+      "destination": "/en/blog/landing-page-mistakes-that-reduce-conversion/",
+      "permanent": false
+    },
+    {
+      "source": "/landing-page-mistakes-that-reduce-conversion/",
+      "destination": "/en/blog/landing-page-mistakes-that-reduce-conversion/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-customer-ltv-how-the-metric-is-calculated-and-why-it-is-important",
+      "destination": "/en/blog/what-is-customer-ltv-how-the-metric-is-calculated-and-why-it-is-important/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-customer-ltv-how-the-metric-is-calculated-and-why-it-is-important/",
+      "destination": "/en/blog/what-is-customer-ltv-how-the-metric-is-calculated-and-why-it-is-important/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-convert-video-to-text",
+      "destination": "/en/blog/how-to-convert-video-to-text/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-convert-video-to-text/",
+      "destination": "/en/blog/how-to-convert-video-to-text/",
+      "permanent": false
+    },
+    {
+      "source": "/8-tips-that-will-help-you-sell-products-through-social-media",
+      "destination": "/en/blog/8-tips-that-will-help-you-sell-products-through-social-media/",
+      "permanent": false
+    },
+    {
+      "source": "/8-tips-that-will-help-you-sell-products-through-social-media/",
+      "destination": "/en/blog/8-tips-that-will-help-you-sell-products-through-social-media/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-business-to-google-maps",
+      "destination": "/en/blog/how-to-add-a-business-to-google-maps/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-business-to-google-maps/",
+      "destination": "/en/blog/how-to-add-a-business-to-google-maps/",
+      "permanent": false
+    },
+    {
+      "source": "/what-a-watermark-is-and-where-it-is-used",
+      "destination": "/en/blog/what-a-watermark-is-and-where-it-is-used/",
+      "permanent": false
+    },
+    {
+      "source": "/what-a-watermark-is-and-where-it-is-used/",
+      "destination": "/en/blog/what-a-watermark-is-and-where-it-is-used/",
+      "permanent": false
+    },
+    {
+      "source": "/key-website-ranking-factors-in-google-in-2025",
+      "destination": "/en/blog/key-website-ranking-factors-in-google-in-2025/",
+      "permanent": false
+    },
+    {
+      "source": "/key-website-ranking-factors-in-google-in-2025/",
+      "destination": "/en/blog/key-website-ranking-factors-in-google-in-2025/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-website-trust-and-how-to-check-it",
+      "destination": "/en/blog/what-is-website-trust-and-how-to-check-it/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-website-trust-and-how-to-check-it/",
+      "destination": "/en/blog/what-is-website-trust-and-how-to-check-it/",
+      "permanent": false
+    },
+    {
+      "source": "/types-of-goals-in-google-analytics",
+      "destination": "/en/blog/types-of-goals-in-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/types-of-goals-in-google-analytics/",
+      "destination": "/en/blog/types-of-goals-in-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-external-seo-links",
+      "destination": "/en/blog/what-are-external-seo-links/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-external-seo-links/",
+      "destination": "/en/blog/what-are-external-seo-links/",
+      "permanent": false
+    },
+    {
+      "source": "/website-prototype-why-it-s-needed-and-how-to-create-it-yourself",
+      "destination": "/en/blog/website-prototype-why-it-s-needed-and-how-to-create-it-yourself/",
+      "permanent": false
+    },
+    {
+      "source": "/website-prototype-why-it-s-needed-and-how-to-create-it-yourself/",
+      "destination": "/en/blog/website-prototype-why-it-s-needed-and-how-to-create-it-yourself/",
+      "permanent": false
+    },
+    {
+      "source": "/digital-marketing-basic-concepts-and-tools",
+      "destination": "/en/blog/digital-marketing-basic-concepts-and-tools/",
+      "permanent": false
+    },
+    {
+      "source": "/digital-marketing-basic-concepts-and-tools/",
+      "destination": "/en/blog/digital-marketing-basic-concepts-and-tools/",
+      "permanent": false
+    },
+    {
+      "source": "/effective-and-safe-link-building-promotion-for-white-projects",
+      "destination": "/en/blog/effective-and-safe-link-building-promotion-for-white-projects/",
+      "permanent": false
+    },
+    {
+      "source": "/effective-and-safe-link-building-promotion-for-white-projects/",
+      "destination": "/en/blog/effective-and-safe-link-building-promotion-for-white-projects/",
+      "permanent": false
+    },
+    {
+      "source": "/how-we-reduced-the-cost-per-conversion-by-25-from-contextual-advertising-in-the-e-commerce-niche",
+      "destination": "/en/blog/how-we-reduced-the-cost-per-conversion-by-25-from-contextual-advertising-in-the-e-commerce-niche/",
+      "permanent": false
+    },
+    {
+      "source": "/how-we-reduced-the-cost-per-conversion-by-25-from-contextual-advertising-in-the-e-commerce-niche/",
+      "destination": "/en/blog/how-we-reduced-the-cost-per-conversion-by-25-from-contextual-advertising-in-the-e-commerce-niche/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-achieve-breakthrough-results-for-a-website-by-building-it-with-seo-recommendations-in-mind",
+      "destination": "/en/blog/how-to-achieve-breakthrough-results-for-a-website-by-building-it-with-seo-recommendations-in-mind/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-achieve-breakthrough-results-for-a-website-by-building-it-with-seo-recommendations-in-mind/",
+      "destination": "/en/blog/how-to-achieve-breakthrough-results-for-a-website-by-building-it-with-seo-recommendations-in-mind/",
+      "permanent": false
+    },
+    {
+      "source": "/why-is-the-site-not-indexed",
+      "destination": "/en/blog/why-is-the-site-not-indexed/",
+      "permanent": false
+    },
+    {
+      "source": "/why-is-the-site-not-indexed/",
+      "destination": "/en/blog/why-is-the-site-not-indexed/",
+      "permanent": false
+    },
+    {
+      "source": "/cpm-what-is-it-how-is-it-used-in-advertising",
+      "destination": "/en/blog/cpm-what-is-it-how-is-it-used-in-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/cpm-what-is-it-how-is-it-used-in-advertising/",
+      "destination": "/en/blog/cpm-what-is-it-how-is-it-used-in-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/increase-in-organic-traffic-by-20-for-an-insurance-company",
+      "destination": "/en/blog/increase-in-organic-traffic-by-20-for-an-insurance-company/",
+      "permanent": false
+    },
+    {
+      "source": "/increase-in-organic-traffic-by-20-for-an-insurance-company/",
+      "destination": "/en/blog/increase-in-organic-traffic-by-20-for-an-insurance-company/",
+      "permanent": false
+    },
+    {
+      "source": "/performance-case-for-a-gas-station-network",
+      "destination": "/en/blog/performance-case-for-a-gas-station-network/",
+      "permanent": false
+    },
+    {
+      "source": "/performance-case-for-a-gas-station-network/",
+      "destination": "/en/blog/performance-case-for-a-gas-station-network/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-use-google-trends-service",
+      "destination": "/en/blog/how-to-use-google-trends-service/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-use-google-trends-service/",
+      "destination": "/en/blog/how-to-use-google-trends-service/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-affiliates-and-why-should-they-be-approached-with-caution",
+      "destination": "/en/blog/what-are-affiliates-and-why-should-they-be-approached-with-caution/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-affiliates-and-why-should-they-be-approached-with-caution/",
+      "destination": "/en/blog/what-are-affiliates-and-why-should-they-be-approached-with-caution/",
+      "permanent": false
+    },
+    {
+      "source": "/new-formula-for-calculating-ad-rank-in-google-adwords",
+      "destination": "/en/blog/new-formula-for-calculating-ad-rank-in-google-adwords/",
+      "permanent": false
+    },
+    {
+      "source": "/new-formula-for-calculating-ad-rank-in-google-adwords/",
+      "destination": "/en/blog/new-formula-for-calculating-ad-rank-in-google-adwords/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-cdn-and-how-to-set-it-up",
+      "destination": "/en/blog/what-is-cdn-and-how-to-set-it-up/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-cdn-and-how-to-set-it-up/",
+      "destination": "/en/blog/what-is-cdn-and-how-to-set-it-up/",
+      "permanent": false
+    },
+    {
+      "source": "/multichannel-sequences-in-google-analytics",
+      "destination": "/en/blog/multichannel-sequences-in-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/multichannel-sequences-in-google-analytics/",
+      "destination": "/en/blog/multichannel-sequences-in-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-mariemur-com",
+      "destination": "/en/blog/seo-case-mariemur-com/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-mariemur-com/",
+      "destination": "/en/blog/seo-case-mariemur-com/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-promotion-for-ukrainian-developer",
+      "destination": "/en/blog/seo-promotion-for-ukrainian-developer/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-promotion-for-ukrainian-developer/",
+      "destination": "/en/blog/seo-promotion-for-ukrainian-developer/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-create-an-internal-search-on-a-website",
+      "destination": "/en/blog/how-to-create-an-internal-search-on-a-website/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-create-an-internal-search-on-a-website/",
+      "destination": "/en/blog/how-to-create-an-internal-search-on-a-website/",
+      "permanent": false
+    },
+    {
+      "source": "/who-is-seo-specialist-and-what-does-he-do",
+      "destination": "/en/blog/who-is-seo-specialist-and-what-does-he-do/",
+      "permanent": false
+    },
+    {
+      "source": "/who-is-seo-specialist-and-what-does-he-do/",
+      "destination": "/en/blog/who-is-seo-specialist-and-what-does-he-do/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-cro-and-how-it-helps-increase-conversions",
+      "destination": "/en/blog/what-is-cro-and-how-it-helps-increase-conversions/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-cro-and-how-it-helps-increase-conversions/",
+      "destination": "/en/blog/what-is-cro-and-how-it-helps-increase-conversions/",
+      "permanent": false
+    },
+    {
+      "source": "/case-on-seo-promotion-of-a-sewing-machines-website",
+      "destination": "/en/blog/case-on-seo-promotion-of-a-sewing-machines-website/",
+      "permanent": false
+    },
+    {
+      "source": "/case-on-seo-promotion-of-a-sewing-machines-website/",
+      "destination": "/en/blog/case-on-seo-promotion-of-a-sewing-machines-website/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-crowd-links",
+      "destination": "/en/blog/what-are-crowd-links/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-crowd-links/",
+      "destination": "/en/blog/what-are-crowd-links/",
+      "permanent": false
+    },
+    {
+      "source": "/best-tools-to-check-website-loading-speed",
+      "destination": "/en/blog/best-tools-to-check-website-loading-speed/",
+      "permanent": false
+    },
+    {
+      "source": "/best-tools-to-check-website-loading-speed/",
+      "destination": "/en/blog/best-tools-to-check-website-loading-speed/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-banner-advertising-and-its-principles-of-operation",
+      "destination": "/en/blog/what-is-banner-advertising-and-its-principles-of-operation/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-banner-advertising-and-its-principles-of-operation/",
+      "destination": "/en/blog/what-is-banner-advertising-and-its-principles-of-operation/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-b2b-sales",
+      "destination": "/en/blog/what-is-b2b-sales/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-b2b-sales/",
+      "destination": "/en/blog/what-is-b2b-sales/",
+      "permanent": false
+    },
+    {
+      "source": "/website-footer-what-it-is-and-how-to-design-the-footer-on-a-website",
+      "destination": "/en/blog/website-footer-what-it-is-and-how-to-design-the-footer-on-a-website/",
+      "permanent": false
+    },
+    {
+      "source": "/website-footer-what-it-is-and-how-to-design-the-footer-on-a-website/",
+      "destination": "/en/blog/website-footer-what-it-is-and-how-to-design-the-footer-on-a-website/",
+      "permanent": false
+    },
+    {
+      "source": "/semantic-core-clustering-the-key-to-effective-seo-promotion",
+      "destination": "/en/blog/semantic-core-clustering-the-key-to-effective-seo-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/semantic-core-clustering-the-key-to-effective-seo-promotion/",
+      "destination": "/en/blog/semantic-core-clustering-the-key-to-effective-seo-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-promotion-strategy-for-an-online-store-with-seasonal-products",
+      "destination": "/en/blog/seo-promotion-strategy-for-an-online-store-with-seasonal-products/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-promotion-strategy-for-an-online-store-with-seasonal-products/",
+      "destination": "/en/blog/seo-promotion-strategy-for-an-online-store-with-seasonal-products/",
+      "permanent": false
+    },
+    {
+      "source": "/features-of-promoting-an-agricultural-online-store",
+      "destination": "/en/blog/features-of-promoting-an-agricultural-online-store/",
+      "permanent": false
+    },
+    {
+      "source": "/features-of-promoting-an-agricultural-online-store/",
+      "destination": "/en/blog/features-of-promoting-an-agricultural-online-store/",
+      "permanent": false
+    },
+    {
+      "source": "/who-is-a-content-manager-and-what-does-he-do",
+      "destination": "/en/blog/who-is-a-content-manager-and-what-does-he-do/",
+      "permanent": false
+    },
+    {
+      "source": "/who-is-a-content-manager-and-what-does-he-do/",
+      "destination": "/en/blog/who-is-a-content-manager-and-what-does-he-do/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-traffic-arbitrage",
+      "destination": "/en/blog/what-is-traffic-arbitrage/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-traffic-arbitrage/",
+      "destination": "/en/blog/what-is-traffic-arbitrage/",
+      "permanent": false
+    },
+    {
+      "source": "/what-references-are-and-how-to-use-them-correctly",
+      "destination": "/en/blog/what-references-are-and-how-to-use-them-correctly/",
+      "permanent": false
+    },
+    {
+      "source": "/what-references-are-and-how-to-use-them-correctly/",
+      "destination": "/en/blog/what-references-are-and-how-to-use-them-correctly/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-promotion-for-the-car-service-650-organic-traffic-increase-per-day-in-10-months-of-collaboration",
+      "destination": "/en/blog/seo-promotion-for-the-car-service-650-organic-traffic-increase-per-day-in-10-months-of-collaboration/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-promotion-for-the-car-service-650-organic-traffic-increase-per-day-in-10-months-of-collaboration/",
+      "destination": "/en/blog/seo-promotion-for-the-car-service-650-organic-traffic-increase-per-day-in-10-months-of-collaboration/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-new-user-in-google-analytics",
+      "destination": "/en/blog/how-to-add-a-new-user-in-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-new-user-in-google-analytics/",
+      "destination": "/en/blog/how-to-add-a-new-user-in-google-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/google-contextual-advertising-types-goals-and-advantages",
+      "destination": "/en/blog/google-contextual-advertising-types-goals-and-advantages/",
+      "permanent": false
+    },
+    {
+      "source": "/google-contextual-advertising-types-goals-and-advantages/",
+      "destination": "/en/blog/google-contextual-advertising-types-goals-and-advantages/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-website-to-google-search-console",
+      "destination": "/en/blog/how-to-add-a-website-to-google-search-console/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-add-a-website-to-google-search-console/",
+      "destination": "/en/blog/how-to-add-a-website-to-google-search-console/",
+      "permanent": false
+    },
+    {
+      "source": "/key-seo-metrics-for-effective-website-promotion",
+      "destination": "/en/blog/key-seo-metrics-for-effective-website-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/key-seo-metrics-for-effective-website-promotion/",
+      "destination": "/en/blog/key-seo-metrics-for-effective-website-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-conduct-snippet-analysis-in-search-results",
+      "destination": "/en/blog/how-to-conduct-snippet-analysis-in-search-results/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-conduct-snippet-analysis-in-search-results/",
+      "destination": "/en/blog/how-to-conduct-snippet-analysis-in-search-results/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-roi-how-to-calculate-it-and-why-it-matters",
+      "destination": "/en/blog/what-is-roi-how-to-calculate-it-and-why-it-matters/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-roi-how-to-calculate-it-and-why-it-matters/",
+      "destination": "/en/blog/what-is-roi-how-to-calculate-it-and-why-it-matters/",
+      "permanent": false
+    },
+    {
+      "source": "/proper-use-of-h1-h6-headings-for-seo-and-user-convenience",
+      "destination": "/en/blog/proper-use-of-h1-h6-headings-for-seo-and-user-convenience/",
+      "permanent": false
+    },
+    {
+      "source": "/proper-use-of-h1-h6-headings-for-seo-and-user-convenience/",
+      "destination": "/en/blog/proper-use-of-h1-h6-headings-for-seo-and-user-convenience/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-analyze-auctions-using-google-data-studio",
+      "destination": "/en/blog/how-to-analyze-auctions-using-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-analyze-auctions-using-google-data-studio/",
+      "destination": "/en/blog/how-to-analyze-auctions-using-google-data-studio/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analysis-of-text-key-aspects-of-content-optimization",
+      "destination": "/en/blog/seo-analysis-of-text-key-aspects-of-content-optimization/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-analysis-of-text-key-aspects-of-content-optimization/",
+      "destination": "/en/blog/seo-analysis-of-text-key-aspects-of-content-optimization/",
+      "permanent": false
+    },
+    {
+      "source": "/how-tiktok-algorithms-work-explained-in-simple-terms",
+      "destination": "/en/blog/how-tiktok-algorithms-work-explained-in-simple-terms/",
+      "permanent": false
+    },
+    {
+      "source": "/how-tiktok-algorithms-work-explained-in-simple-terms/",
+      "destination": "/en/blog/how-tiktok-algorithms-work-explained-in-simple-terms/",
+      "permanent": false
+    },
+    {
+      "source": "/how-we-nearly-doubled-the-return-on-investment-roi",
+      "destination": "/en/blog/how-we-nearly-doubled-the-return-on-investment-roi/",
+      "permanent": false
+    },
+    {
+      "source": "/how-we-nearly-doubled-the-return-on-investment-roi/",
+      "destination": "/en/blog/how-we-nearly-doubled-the-return-on-investment-roi/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-scrambleup-com",
+      "destination": "/en/blog/seo-case-scrambleup-com/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-case-scrambleup-com/",
+      "destination": "/en/blog/seo-case-scrambleup-com/",
+      "permanent": false
+    },
+    {
+      "source": "/what-installing-google-analytics-on-a-website-provides",
+      "destination": "/en/blog/what-installing-google-analytics-on-a-website-provides/",
+      "permanent": false
+    },
+    {
+      "source": "/what-installing-google-analytics-on-a-website-provides/",
+      "destination": "/en/blog/what-installing-google-analytics-on-a-website-provides/",
+      "permanent": false
+    },
+    {
+      "source": "/popular-online-services-for-quick-url-shortening",
+      "destination": "/en/blog/popular-online-services-for-quick-url-shortening/",
+      "permanent": false
+    },
+    {
+      "source": "/popular-online-services-for-quick-url-shortening/",
+      "destination": "/en/blog/popular-online-services-for-quick-url-shortening/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-find-out-a-website-s-engine",
+      "destination": "/en/blog/how-to-find-out-a-website-s-engine/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-find-out-a-website-s-engine/",
+      "destination": "/en/blog/how-to-find-out-a-website-s-engine/",
+      "permanent": false
+    },
+    {
+      "source": "/directory-registration-is-it-worth-it",
+      "destination": "/en/blog/directory-registration-is-it-worth-it/",
+      "permanent": false
+    },
+    {
+      "source": "/directory-registration-is-it-worth-it/",
+      "destination": "/en/blog/directory-registration-is-it-worth-it/",
+      "permanent": false
+    },
+    {
+      "source": "/dynamic-product-remarketing-for-google-adwords-with-google-tag-manager",
+      "destination": "/en/blog/dynamic-product-remarketing-for-google-adwords-with-google-tag-manager/",
+      "permanent": false
+    },
+    {
+      "source": "/dynamic-product-remarketing-for-google-adwords-with-google-tag-manager/",
+      "destination": "/en/blog/dynamic-product-remarketing-for-google-adwords-with-google-tag-manager/",
+      "permanent": false
+    },
+    {
+      "source": "/google-tag-manager-what-is-it-how-to-set-up-and-install-gtm",
+      "destination": "/en/blog/google-tag-manager-what-is-it-how-to-set-up-and-install-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/google-tag-manager-what-is-it-how-to-set-up-and-install-gtm/",
+      "destination": "/en/blog/google-tag-manager-what-is-it-how-to-set-up-and-install-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-increase-the-link-mass-of-a-website",
+      "destination": "/en/blog/how-to-increase-the-link-mass-of-a-website/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-increase-the-link-mass-of-a-website/",
+      "destination": "/en/blog/how-to-increase-the-link-mass-of-a-website/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-facebook-ads-manager-and-how-to-work-with-it",
+      "destination": "/en/blog/what-is-facebook-ads-manager-and-how-to-work-with-it/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-facebook-ads-manager-and-how-to-work-with-it/",
+      "destination": "/en/blog/what-is-facebook-ads-manager-and-how-to-work-with-it/",
+      "permanent": false
+    },
+    {
+      "source": "/the-law-on-the-ukrainian-language-5670-d-and-its-impact-on-seo",
+      "destination": "/en/blog/the-law-on-the-ukrainian-language-5670-d-and-its-impact-on-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/the-law-on-the-ukrainian-language-5670-d-and-its-impact-on-seo/",
+      "destination": "/en/blog/the-law-on-the-ukrainian-language-5670-d-and-its-impact-on-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-semantic-markup-and-why-is-it-needed-for-seo",
+      "destination": "/en/blog/what-is-semantic-markup-and-why-is-it-needed-for-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/what-is-semantic-markup-and-why-is-it-needed-for-seo/",
+      "destination": "/en/blog/what-is-semantic-markup-and-why-is-it-needed-for-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/google-search-console-webmaster-tools-simple-guide-for-beginners",
+      "destination": "/en/blog/google-search-console-webmaster-tools-simple-guide-for-beginners/",
+      "permanent": false
+    },
+    {
+      "source": "/google-search-console-webmaster-tools-simple-guide-for-beginners/",
+      "destination": "/en/blog/google-search-console-webmaster-tools-simple-guide-for-beginners/",
+      "permanent": false
+    },
+    {
+      "source": "/new-section-in-the-seomarket-blog-expert-opinions",
+      "destination": "/en/blog/new-section-in-the-seomarket-blog-expert-opinions/",
+      "permanent": false
+    },
+    {
+      "source": "/new-section-in-the-seomarket-blog-expert-opinions/",
+      "destination": "/en/blog/new-section-in-the-seomarket-blog-expert-opinions/",
+      "permanent": false
+    },
+    {
+      "source": "/how-tiktok-monetization-works-and-how-to-start-earning",
+      "destination": "/en/blog/how-tiktok-monetization-works-and-how-to-start-earning/",
+      "permanent": false
+    },
+    {
+      "source": "/how-tiktok-monetization-works-and-how-to-start-earning/",
+      "destination": "/en/blog/how-tiktok-monetization-works-and-how-to-start-earning/",
+      "permanent": false
+    },
+    {
+      "source": "/301-redirect-what-this-tool-is-and-how-to-set-it-up",
+      "destination": "/en/blog/301-redirect-what-this-tool-is-and-how-to-set-it-up/",
+      "permanent": false
+    },
+    {
+      "source": "/301-redirect-what-this-tool-is-and-how-to-set-it-up/",
+      "destination": "/en/blog/301-redirect-what-this-tool-is-and-how-to-set-it-up/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-copywriting-beware-of-deception",
+      "destination": "/en/blog/seo-copywriting-beware-of-deception/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-copywriting-beware-of-deception/",
+      "destination": "/en/blog/seo-copywriting-beware-of-deception/",
+      "permanent": false
+    },
+    {
+      "source": "/case-on-the-ppc-advertising-campaign-of-an-online-store-for-photo-equipment",
+      "destination": "/en/blog/case-on-the-ppc-advertising-campaign-of-an-online-store-for-photo-equipment/",
+      "permanent": false
+    },
+    {
+      "source": "/case-on-the-ppc-advertising-campaign-of-an-online-store-for-photo-equipment/",
+      "destination": "/en/blog/case-on-the-ppc-advertising-campaign-of-an-online-store-for-photo-equipment/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-non-anchor-links-and-why-they-are-needed",
+      "destination": "/en/blog/what-are-non-anchor-links-and-why-they-are-needed/",
+      "permanent": false
+    },
+    {
+      "source": "/what-are-non-anchor-links-and-why-they-are-needed/",
+      "destination": "/en/blog/what-are-non-anchor-links-and-why-they-are-needed/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-check-website-traffic-statistics",
+      "destination": "/en/blog/how-to-check-website-traffic-statistics/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-check-website-traffic-statistics/",
+      "destination": "/en/blog/how-to-check-website-traffic-statistics/",
+      "permanent": false
+    },
+    {
+      "source": "/case-study-seo-promotion-of-a-security-systems-website",
+      "destination": "/en/blog/case-study-seo-promotion-of-a-security-systems-website/",
+      "permanent": false
+    },
+    {
+      "source": "/case-study-seo-promotion-of-a-security-systems-website/",
+      "destination": "/en/blog/case-study-seo-promotion-of-a-security-systems-website/",
+      "permanent": false
+    },
+    {
+      "source": "/how-a-technical-seo-audit-helped-increase-organic-traffic-by-1275",
+      "destination": "/en/blog/how-a-technical-seo-audit-helped-increase-organic-traffic-by-1275/",
+      "permanent": false
+    },
+    {
+      "source": "/how-a-technical-seo-audit-helped-increase-organic-traffic-by-1275/",
+      "destination": "/en/blog/how-a-technical-seo-audit-helped-increase-organic-traffic-by-1275/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-conduct-a-seo-competitor-analysis-checklist-from-seomarket",
+      "destination": "/en/blog/how-to-conduct-a-seo-competitor-analysis-checklist-from-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/how-to-conduct-a-seo-competitor-analysis-checklist-from-seomarket/",
+      "destination": "/en/blog/how-to-conduct-a-seo-competitor-analysis-checklist-from-seomarket/",
+      "permanent": false
+    },
+    {
+      "source": "/index.html",
+      "destination": "/ru/",
+      "permanent": true
+    },
+    {
+      "source": "/ru/index.html",
+      "destination": "/ru/",
+      "permanent": true
+    },
+    {
+      "source": "/en/index.html",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/index.html",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/brif-all",
+      "destination": "/ru/brif-all/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-all/",
+      "destination": "/ru/brif-all/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-po-kopirajtinhu",
+      "destination": "/ru/brif-po-kopirajtinhu/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-po-kopirajtinhu/",
+      "destination": "/ru/brif-po-kopirajtinhu/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-ppc",
+      "destination": "/ru/brif-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-ppc/",
+      "destination": "/ru/brif-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-seo",
+      "destination": "/ru/brif-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-seo/",
+      "destination": "/ru/brif-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-target",
+      "destination": "/ru/brif-target/",
+      "permanent": false
+    },
+    {
+      "source": "/brif-target/",
+      "destination": "/ru/brif-target/",
+      "permanent": false
+    },
+    {
+      "source": "/kejsy",
+      "destination": "/ru/kejsy/",
+      "permanent": false
+    },
+    {
+      "source": "/kejsy/",
+      "destination": "/ru/kejsy/",
+      "permanent": false
+    },
+    {
+      "source": "/komanda-seo-gikov",
+      "destination": "/ru/komanda-seo-gikov/",
+      "permanent": false
+    },
+    {
+      "source": "/komanda-seo-gikov/",
+      "destination": "/ru/komanda-seo-gikov/",
+      "permanent": false
+    },
+    {
+      "source": "/kontakty",
+      "destination": "/ru/kontakty/",
+      "permanent": false
+    },
+    {
+      "source": "/kontakty/",
+      "destination": "/ru/kontakty/",
+      "permanent": false
+    },
+    {
+      "source": "/o-nas",
+      "destination": "/ru/o-nas/",
+      "permanent": false
+    },
+    {
+      "source": "/o-nas/",
+      "destination": "/ru/o-nas/",
+      "permanent": false
+    },
+    {
+      "source": "/otzyvy",
+      "destination": "/ru/otzyvy/",
+      "permanent": false
+    },
+    {
+      "source": "/otzyvy/",
+      "destination": "/ru/otzyvy/",
+      "permanent": false
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/ru/privacy-policy/",
+      "permanent": false
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/ru/privacy-policy/",
+      "permanent": false
+    },
+    {
+      "source": "/publichnaja-oferta",
+      "destination": "/ru/publichnaja-oferta/",
+      "permanent": false
+    },
+    {
+      "source": "/publichnaja-oferta/",
+      "destination": "/ru/publichnaja-oferta/",
+      "permanent": false
+    },
+    {
+      "source": "/test-strants",
+      "destination": "/ru/test-strants/",
+      "permanent": false
+    },
+    {
+      "source": "/test-strants/",
+      "destination": "/ru/test-strants/",
+      "permanent": false
+    },
+    {
+      "source": "/thank-you",
+      "destination": "/ru/thank-you/",
+      "permanent": false
+    },
+    {
+      "source": "/thank-you/",
+      "destination": "/ru/thank-you/",
+      "permanent": false
+    },
+    {
+      "source": "/analiz-konkurentiv",
+      "destination": "/services/analiz-konkurentiv/",
+      "permanent": false
+    },
+    {
+      "source": "/analiz-konkurentiv/",
+      "destination": "/services/analiz-konkurentiv/",
+      "permanent": false
+    },
+    {
+      "source": "/audit-reklamnih-akauntiv-ppc",
+      "destination": "/services/audit-reklamnih-akauntiv-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/audit-reklamnih-akauntiv-ppc/",
+      "destination": "/services/audit-reklamnih-akauntiv-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/audyt-ga4",
+      "destination": "/services/audyt-ga4/",
+      "permanent": false
+    },
+    {
+      "source": "/audyt-ga4/",
+      "destination": "/services/audyt-ga4/",
+      "permanent": false
+    },
+    {
+      "source": "/audyt-google-ads",
+      "destination": "/services/audyt-google-ads/",
+      "permanent": false
+    },
+    {
+      "source": "/audyt-google-ads/",
+      "destination": "/services/audyt-google-ads/",
+      "permanent": false
+    },
+    {
+      "source": "/audyt-reklamnykh-kabinetiv",
+      "destination": "/services/audyt-reklamnykh-kabinetiv/",
+      "permanent": false
+    },
+    {
+      "source": "/audyt-reklamnykh-kabinetiv/",
+      "destination": "/services/audyt-reklamnykh-kabinetiv/",
+      "permanent": false
+    },
+    {
+      "source": "/calltracking",
+      "destination": "/services/calltracking/",
+      "permanent": false
+    },
+    {
+      "source": "/calltracking/",
+      "destination": "/services/calltracking/",
+      "permanent": false
+    },
+    {
+      "source": "/dizajn-ta-rozrobka",
+      "destination": "/services/dizajn-ta-rozrobka/",
+      "permanent": false
+    },
+    {
+      "source": "/dizajn-ta-rozrobka/",
+      "destination": "/services/dizajn-ta-rozrobka/",
+      "permanent": false
+    },
+    {
+      "source": "/google-shopping",
+      "destination": "/services/google-shopping/",
+      "permanent": false
+    },
+    {
+      "source": "/google-shopping/",
+      "destination": "/services/google-shopping/",
+      "permanent": false
+    },
+    {
+      "source": "/konsultatsiya-po-ppc",
+      "destination": "/services/konsultatsiya-po-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/konsultatsiya-po-ppc/",
+      "destination": "/services/konsultatsiya-po-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/konsultatsiya-po-seo",
+      "destination": "/services/konsultatsiya-po-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/konsultatsiya-po-seo/",
+      "destination": "/services/konsultatsiya-po-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/konsultuvannya",
+      "destination": "/services/konsultuvannya/",
+      "permanent": false
+    },
+    {
+      "source": "/konsultuvannya/",
+      "destination": "/services/konsultuvannya/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama",
+      "destination": "/services/kontekstna-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama/",
+      "destination": "/services/kontekstna-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-dnipro",
+      "destination": "/services/kontekstna-reklama-dnipro/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-dnipro/",
+      "destination": "/services/kontekstna-reklama-dnipro/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-kharkiv",
+      "destination": "/services/kontekstna-reklama-kharkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-kharkiv/",
+      "destination": "/services/kontekstna-reklama-kharkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-kyiv",
+      "destination": "/services/kontekstna-reklama-kyiv/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-kyiv/",
+      "destination": "/services/kontekstna-reklama-kyiv/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-odesa",
+      "destination": "/services/kontekstna-reklama-odesa/",
+      "permanent": false
+    },
+    {
+      "source": "/kontekstna-reklama-odesa/",
+      "destination": "/services/kontekstna-reklama-odesa/",
+      "permanent": false
+    },
+    {
+      "source": "/kontent-marketynh",
+      "destination": "/services/kontent-marketynh/",
+      "permanent": false
+    },
+    {
+      "source": "/kontent-marketynh/",
+      "destination": "/services/kontent-marketynh/",
+      "permanent": false
+    },
+    {
+      "source": "/kraud-marketing",
+      "destination": "/services/kraud-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/kraud-marketing/",
+      "destination": "/services/kraud-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/linkbilding",
+      "destination": "/services/linkbilding/",
+      "permanent": false
+    },
+    {
+      "source": "/linkbilding/",
+      "destination": "/services/linkbilding/",
+      "permanent": false
+    },
+    {
+      "source": "/lokalizacziya-na-mizhnarodni-movi",
+      "destination": "/services/lokalizacziya-na-mizhnarodni-movi/",
+      "permanent": false
+    },
+    {
+      "source": "/lokalizacziya-na-mizhnarodni-movi/",
+      "destination": "/services/lokalizacziya-na-mizhnarodni-movi/",
+      "permanent": false
+    },
+    {
+      "source": "/medijna-reklama",
+      "destination": "/services/medijna-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/medijna-reklama/",
+      "destination": "/services/medijna-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/mobile-aso-ukr",
+      "destination": "/services/mobile-aso-ukr/",
+      "permanent": false
+    },
+    {
+      "source": "/mobile-aso-ukr/",
+      "destination": "/services/mobile-aso-ukr/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-analitiki",
+      "destination": "/services/nalashtuvannya-analitiki/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-analitiki/",
+      "destination": "/services/nalashtuvannya-analitiki/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-czilej",
+      "destination": "/services/nalashtuvannya-czilej/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-czilej/",
+      "destination": "/services/nalashtuvannya-czilej/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-e-commerce",
+      "destination": "/services/nalashtuvannya-e-commerce/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-e-commerce/",
+      "destination": "/services/nalashtuvannya-e-commerce/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-gtm",
+      "destination": "/services/nalashtuvannya-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/nalashtuvannya-gtm/",
+      "destination": "/services/nalashtuvannya-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/napysannya-seo-tekstiv",
+      "destination": "/services/napysannya-seo-tekstiv/",
+      "permanent": false
+    },
+    {
+      "source": "/napysannya-seo-tekstiv/",
+      "destination": "/services/napysannya-seo-tekstiv/",
+      "permanent": false
+    },
+    {
+      "source": "/popovnennya-facebook-c-pdv",
+      "destination": "/services/popovnennya-facebook-c-pdv/",
+      "permanent": false
+    },
+    {
+      "source": "/popovnennya-facebook-c-pdv/",
+      "destination": "/services/popovnennya-facebook-c-pdv/",
+      "permanent": false
+    },
+    {
+      "source": "/posylkovyi-audyt-saytu",
+      "destination": "/services/posylkovyi-audyt-saytu/",
+      "permanent": false
+    },
+    {
+      "source": "/posylkovyi-audyt-saytu/",
+      "destination": "/services/posylkovyi-audyt-saytu/",
+      "permanent": false
+    },
+    {
+      "source": "/pr-rozmishhennya",
+      "destination": "/services/pr-rozmishhennya/",
+      "permanent": false
+    },
+    {
+      "source": "/pr-rozmishhennya/",
+      "destination": "/services/pr-rozmishhennya/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-dnipro",
+      "destination": "/services/prosuvannya-dnipro/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-dnipro/",
+      "destination": "/services/prosuvannya-dnipro/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-dodatkiv-ta-igor",
+      "destination": "/services/prosuvannya-dodatkiv-ta-igor/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-dodatkiv-ta-igor/",
+      "destination": "/services/prosuvannya-dodatkiv-ta-igor/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-kharkiv",
+      "destination": "/services/prosuvannya-kharkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-kharkiv/",
+      "destination": "/services/prosuvannya-kharkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-kryvyi-rih",
+      "destination": "/services/prosuvannya-kryvyi-rih/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-kryvyi-rih/",
+      "destination": "/services/prosuvannya-kryvyi-rih/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-kyiv",
+      "destination": "/services/prosuvannya-kyiv/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-kyiv/",
+      "destination": "/services/prosuvannya-kyiv/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-lutsk",
+      "destination": "/services/prosuvannya-lutsk/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-lutsk/",
+      "destination": "/services/prosuvannya-lutsk/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-lviv",
+      "destination": "/services/prosuvannya-lviv/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-lviv/",
+      "destination": "/services/prosuvannya-lviv/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-odesa",
+      "destination": "/services/prosuvannya-odesa/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-odesa/",
+      "destination": "/services/prosuvannya-odesa/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-vinnytsya",
+      "destination": "/services/prosuvannya-vinnytsya/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-vinnytsya/",
+      "destination": "/services/prosuvannya-vinnytsya/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-zaporizhzhya",
+      "destination": "/services/prosuvannya-zaporizhzhya/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-zaporizhzhya/",
+      "destination": "/services/prosuvannya-zaporizhzhya/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-zhytomyr",
+      "destination": "/services/prosuvannya-zhytomyr/",
+      "permanent": false
+    },
+    {
+      "source": "/prosuvannya-zhytomyr/",
+      "destination": "/services/prosuvannya-zhytomyr/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-na-mobilnih-pristroyah",
+      "destination": "/services/reklama-na-mobilnih-pristroyah/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-na-mobilnih-pristroyah/",
+      "destination": "/services/reklama-na-mobilnih-pristroyah/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-facebook",
+      "destination": "/services/reklama-v-facebook/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-facebook/",
+      "destination": "/services/reklama-v-facebook/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-instagram",
+      "destination": "/services/reklama-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-instagram/",
+      "destination": "/services/reklama-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-linkedin",
+      "destination": "/services/reklama-v-linkedin/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-linkedin/",
+      "destination": "/services/reklama-v-linkedin/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-poshukovih-sistemah",
+      "destination": "/services/reklama-v-poshukovih-sistemah/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-poshukovih-sistemah/",
+      "destination": "/services/reklama-v-poshukovih-sistemah/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-prajs-agregatorah",
+      "destination": "/services/reklama-v-prajs-agregatorah/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-prajs-agregatorah/",
+      "destination": "/services/reklama-v-prajs-agregatorah/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-telegram",
+      "destination": "/services/reklama-v-telegram/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-telegram/",
+      "destination": "/services/reklama-v-telegram/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-tiktok",
+      "destination": "/services/reklama-v-tiktok/",
+      "permanent": false
+    },
+    {
+      "source": "/reklama-v-tiktok/",
+      "destination": "/services/reklama-v-tiktok/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-chat-bota",
+      "destination": "/services/rozrobka-chat-bota/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-chat-bota/",
+      "destination": "/services/rozrobka-chat-bota/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-dodatkiv",
+      "destination": "/services/rozrobka-dodatkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-dodatkiv/",
+      "destination": "/services/rozrobka-dodatkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-sajtiv",
+      "destination": "/services/rozrobka-sajtiv/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-sajtiv/",
+      "destination": "/services/rozrobka-sajtiv/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-strukturi-sajtu",
+      "destination": "/services/rozrobka-strukturi-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/rozrobka-strukturi-sajtu/",
+      "destination": "/services/rozrobka-strukturi-sajtu/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-kopiraytyng",
+      "destination": "/services/seo-kopiraytyng/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-kopiraytyng/",
+      "destination": "/services/seo-kopiraytyng/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-na-etapi-rozrobky",
+      "destination": "/services/seo-na-etapi-rozrobky/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-na-etapi-rozrobky/",
+      "destination": "/services/seo-na-etapi-rozrobky/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-pid-search-chat-gpt-ai",
+      "destination": "/services/seo-pid-search-chat-gpt-ai/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-pid-search-chat-gpt-ai/",
+      "destination": "/services/seo-pid-search-chat-gpt-ai/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-prosuvannya",
+      "destination": "/services/seo-prosuvannya/",
+      "permanent": false
+    },
+    {
+      "source": "/seo-prosuvannya/",
+      "destination": "/services/seo-prosuvannya/",
+      "permanent": false
+    },
+    {
+      "source": "/serm",
+      "destination": "/services/serm/",
+      "permanent": false
+    },
+    {
+      "source": "/serm/",
+      "destination": "/services/serm/",
+      "permanent": false
+    },
+    {
+      "source": "/skladannya-tekhnichnykh-zavdan-na-teksty",
+      "destination": "/services/skladannya-tekhnichnykh-zavdan-na-teksty/",
+      "permanent": false
+    },
+    {
+      "source": "/skladannya-tekhnichnykh-zavdan-na-teksty/",
+      "destination": "/services/skladannya-tekhnichnykh-zavdan-na-teksty/",
+      "permanent": false
+    },
+    {
+      "source": "/targetovana-reklama",
+      "destination": "/services/targetovana-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/targetovana-reklama/",
+      "destination": "/services/targetovana-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/tehnichnij-seo-audit",
+      "destination": "/services/tehnichnij-seo-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/tehnichnij-seo-audit/",
+      "destination": "/services/tehnichnij-seo-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/testirovaniye-prilozheniy-i-sayta",
+      "destination": "/services/testirovaniye-prilozheniy-i-sayta/",
+      "permanent": false
+    },
+    {
+      "source": "/testirovaniye-prilozheniy-i-sayta/",
+      "destination": "/services/testirovaniye-prilozheniy-i-sayta/",
+      "permanent": false
+    },
+    {
+      "source": "/ux-audyt",
+      "destination": "/services/ux-audyt/",
+      "permanent": false
+    },
+    {
+      "source": "/ux-audyt/",
+      "destination": "/services/ux-audyt/",
+      "permanent": false
+    },
+    {
+      "source": "/videoreklama-na-youtube",
+      "destination": "/services/videoreklama-na-youtube/",
+      "permanent": false
+    },
+    {
+      "source": "/videoreklama-na-youtube/",
+      "destination": "/services/videoreklama-na-youtube/",
+      "permanent": false
+    },
+    {
+      "source": "/web-analityka",
+      "destination": "/services/web-analityka/",
+      "permanent": false
+    },
+    {
+      "source": "/web-analityka/",
+      "destination": "/services/web-analityka/",
+      "permanent": false
+    },
+    {
+      "source": "/web-dizajn-kreativi-baneri",
+      "destination": "/services/web-dizajn-kreativi-baneri/",
+      "permanent": false
+    },
+    {
+      "source": "/web-dizajn-kreativi-baneri/",
+      "destination": "/services/web-dizajn-kreativi-baneri/",
+      "permanent": false
+    },
+    {
+      "source": "/zbir-semantichnogo-yadra",
+      "destination": "/services/zbir-semantichnogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/zbir-semantichnogo-yadra/",
+      "destination": "/services/zbir-semantichnogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/web-analitika",
+      "destination": "/ru/services/web-analitika/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/seo-prodvizheniye",
+      "destination": "/ru/services/seo-prodvizheniye/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/nastroyka-gtm",
+      "destination": "/ru/services/nastroyka-gtm/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/nastroyka-analitiki",
+      "destination": "/ru/services/nastroyka-analitiki/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/razrabotka-chat-bota",
+      "destination": "/ru/services/razrabotka-chat-bota/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kraud-market",
+      "destination": "/ru/services/kraud-market/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-vinnitsa",
+      "destination": "/ru/services/prodvizhenie-vinnitsa/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-zaporozhye",
+      "destination": "/ru/services/prodvizhenie-zaporozhye/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-kiev",
+      "destination": "/ru/services/prodvizhenie-kiev/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/napisanie-seo-tekstov",
+      "destination": "/ru/services/napisanie-seo-tekstov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontekstnaya-reklama",
+      "destination": "/ru/services/kontekstnaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-v-linkedin",
+      "destination": "/ru/services/reklama-v-linkedin/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/call-traking",
+      "destination": "/ru/services/call-traking/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-zhitomir",
+      "destination": "/ru/services/prodvizhenie-zhitomir/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-krivoy-rog",
+      "destination": "/ru/services/prodvizhenie-krivoy-rog/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/pr-razmeshcheniye",
+      "destination": "/ru/services/pr-razmeshcheniye/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/videoreklama-na-youtube",
+      "destination": "/ru/services/videoreklama-na-youtube/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/sostavleniya-semanticheskogo-yadra",
+      "destination": "/ru/services/sostavleniya-semanticheskogo-yadra/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-v-instagram",
+      "destination": "/ru/services/reklama-v-instagram/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-lutsk",
+      "destination": "/ru/services/prodvizhenie-lutsk/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-v-telegram",
+      "destination": "/ru/services/reklama-v-telegram/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/audit-ga4",
+      "destination": "/ru/services/audit-ga4/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/ssylochnyy-audit-sayta",
+      "destination": "/ru/services/ssylochnyy-audit-sayta/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/konsultirovanie",
+      "destination": "/ru/services/konsultirovanie/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontekstnaya-reklama-kharkov",
+      "destination": "/ru/services/kontekstnaya-reklama-kharkov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/mediynaya-reklama",
+      "destination": "/ru/services/mediynaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/audit-reklamnykh-kabinetov",
+      "destination": "/ru/services/audit-reklamnykh-kabinetov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/nastroyka-tseley",
+      "destination": "/ru/services/nastroyka-tseley/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/konsultatsiya-po-ppc",
+      "destination": "/ru/services/konsultatsiya-po-ppc/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontekstnaya-reklama-dnepr",
+      "destination": "/ru/services/kontekstnaya-reklama-dnepr/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/linkbilding",
+      "destination": "/ru/services/linkbilding/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/seo-na-etape-razrabotki",
+      "destination": "/ru/services/seo-na-etape-razrabotki/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/razrabotka-struktury-sayta",
+      "destination": "/ru/services/razrabotka-struktury-sayta/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-v-facebook",
+      "destination": "/ru/services/reklama-v-facebook/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/lokalizatsiya-na-mezhdunarodnyye-yazyki",
+      "destination": "/ru/services/lokalizatsiya-na-mezhdunarodnyye-yazyki/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/google-shopping",
+      "destination": "/ru/services/google-shopping/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/targetirovannaya-reklama",
+      "destination": "/ru/services/targetirovannaya-reklama/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/popolneniye-facebook-s-nds",
+      "destination": "/ru/services/popolneniye-facebook-s-nds/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/sostavlenie-tekhnicheskikh-zadanij-na-teksty",
+      "destination": "/ru/services/sostavlenie-tekhnicheskikh-zadanij-na-teksty/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-dnepr",
+      "destination": "/ru/services/prodvizhenie-dnepr/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-odessa",
+      "destination": "/ru/services/prodvizhenie-odessa/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizheniye-prilozheniy-i-igr",
+      "destination": "/ru/services/prodvizheniye-prilozheniy-i-igr/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/mobile-aso",
+      "destination": "/ru/services/mobile-aso/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-lvov",
+      "destination": "/ru/services/prodvizhenie-lvov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/seo-pod-search-chat-gpt-ai",
+      "destination": "/ru/services/seo-pod-search-chat-gpt-ai/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/tekhnicheskiy-seo-audit",
+      "destination": "/ru/services/tekhnicheskiy-seo-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/audit-reklamnih-akkauntov",
+      "destination": "/ru/services/audit-reklamnih-akkauntov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/seo-kopirayting",
+      "destination": "/ru/services/seo-kopirayting/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/serm",
+      "destination": "/ru/services/serm/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontekstnaya-reklama-kiev",
+      "destination": "/ru/services/kontekstnaya-reklama-kiev/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/testirovaniye-prilozheniy-i-sayta",
+      "destination": "/ru/services/testirovaniye-prilozheniy-i-sayta/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontent-marketing",
+      "destination": "/ru/services/kontent-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-v-prays-agregatorakh",
+      "destination": "/ru/services/reklama-v-prays-agregatorakh/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/analiz-konkurentov",
+      "destination": "/ru/services/analiz-konkurentov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/dizayn-i-razrabotka",
+      "destination": "/ru/services/dizayn-i-razrabotka/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/ux-audit",
+      "destination": "/ru/services/ux-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-v-tiktok",
+      "destination": "/ru/services/reklama-v-tiktok/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/nastroyka-e-commerce",
+      "destination": "/ru/services/nastroyka-e-commerce/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/reklama-na-mobilnykh-ustroystvakh",
+      "destination": "/ru/services/reklama-na-mobilnykh-ustroystvakh/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontekstnaya-reklama-odessa",
+      "destination": "/ru/services/kontekstnaya-reklama-odessa/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/konsultatsiya-po-seo",
+      "destination": "/ru/services/konsultatsiya-po-seo/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/prodvizhenie-kharkov",
+      "destination": "/ru/services/prodvizhenie-kharkov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/razrabotka-prilozheniy",
+      "destination": "/ru/services/razrabotka-prilozheniy/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/web-dizayn-kreativy-banera",
+      "destination": "/ru/services/web-dizayn-kreativy-banera/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/razrabotka-saytov",
+      "destination": "/ru/services/razrabotka-saytov/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/kontekstnaya-reklama-v-poiskovykh-sistemakh",
+      "destination": "/ru/services/kontekstnaya-reklama-v-poiskovykh-sistemakh/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/audit-google-ads",
+      "destination": "/ru/services/audit-google-ads/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-of-applications-and-games",
+      "destination": "/en/services/promotion-of-applications-and-games/",
+      "permanent": false
+    },
+    {
+      "source": "/en/creating-technical-specifications-for-texts",
+      "destination": "/en/services/creating-technical-specifications-for-texts/",
+      "permanent": false
+    },
+    {
+      "source": "/en/application-and-site-testing",
+      "destination": "/en/services/application-and-site-testing/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-kryvyi-rih",
+      "destination": "/en/services/promotion-kryvyi-rih/",
+      "permanent": false
+    },
+    {
+      "source": "/en/contextual-advertising-dnipro",
+      "destination": "/en/services/contextual-advertising-dnipro/",
+      "permanent": false
+    },
+    {
+      "source": "/en/backlink-audit-of-the-website",
+      "destination": "/en/services/backlink-audit-of-the-website/",
+      "permanent": false
+    },
+    {
+      "source": "/en/search-engine-advertising",
+      "destination": "/en/services/search-engine-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/seo-copywriting",
+      "destination": "/en/services/seo-copywriting/",
+      "permanent": false
+    },
+    {
+      "source": "/en/keyword-research",
+      "destination": "/en/services/keyword-research/",
+      "permanent": false
+    },
+    {
+      "source": "/en/competitor-analysis-and-dynamics",
+      "destination": "/en/services/competitor-analysis-and-dynamics/",
+      "permanent": false
+    },
+    {
+      "source": "/en/gtm-setup",
+      "destination": "/en/services/gtm-setup/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-kharkiv",
+      "destination": "/en/services/promotion-kharkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/en/technical-seo-audit",
+      "destination": "/en/services/technical-seo-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/en/analytics-settings",
+      "destination": "/en/services/analytics-settings/",
+      "permanent": false
+    },
+    {
+      "source": "/en/design-and-development",
+      "destination": "/en/services/design-and-development/",
+      "permanent": false
+    },
+    {
+      "source": "/en/ga4-audit",
+      "destination": "/en/services/ga4-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/en/advertising-in-price-aggregators",
+      "destination": "/en/services/advertising-in-price-aggregators/",
+      "permanent": false
+    },
+    {
+      "source": "/en/contextual-advertising-kharkiv",
+      "destination": "/en/services/contextual-advertising-kharkiv/",
+      "permanent": false
+    },
+    {
+      "source": "/en/youtube-video-advertising",
+      "destination": "/en/services/youtube-video-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/display-advertising",
+      "destination": "/en/services/display-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/goals-setup",
+      "destination": "/en/services/goals-setup/",
+      "permanent": false
+    },
+    {
+      "source": "/en/seo-consultation",
+      "destination": "/en/services/seo-consultation/",
+      "permanent": false
+    },
+    {
+      "source": "/en/link-building",
+      "destination": "/en/services/link-building/",
+      "permanent": false
+    },
+    {
+      "source": "/en/ppc-consultation",
+      "destination": "/en/services/ppc-consultation/",
+      "permanent": false
+    },
+    {
+      "source": "/en/web-design-creatives-banners",
+      "destination": "/en/services/web-design-creatives-banners/",
+      "permanent": false
+    },
+    {
+      "source": "/en/e-commerce-setup",
+      "destination": "/en/services/e-commerce-setup/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-kyiv",
+      "destination": "/en/services/promotion-kyiv/",
+      "permanent": false
+    },
+    {
+      "source": "/en/google-shopping",
+      "destination": "/en/services/google-shopping/",
+      "permanent": false
+    },
+    {
+      "source": "/en/chatbot-development",
+      "destination": "/en/services/chatbot-development/",
+      "permanent": false
+    },
+    {
+      "source": "/en/content-marketing",
+      "destination": "/en/services/content-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/en/pr-rozmishhennya",
+      "destination": "/en/services/pr-rozmishhennya/",
+      "permanent": false
+    },
+    {
+      "source": "/en/facebook-advertising",
+      "destination": "/en/services/facebook-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/linkedin-advertising",
+      "destination": "/en/services/linkedin-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/text-translation-and-adaptation",
+      "destination": "/en/services/text-translation-and-adaptation/",
+      "permanent": false
+    },
+    {
+      "source": "/en/mobile-aso",
+      "destination": "/en/services/mobile-aso/",
+      "permanent": false
+    },
+    {
+      "source": "/en/contextual-advertising-odesa",
+      "destination": "/en/services/contextual-advertising-odesa/",
+      "permanent": false
+    },
+    {
+      "source": "/en/crowd-marketing",
+      "destination": "/en/services/crowd-marketing/",
+      "permanent": false
+    },
+    {
+      "source": "/en/seo-at-the-development-stage",
+      "destination": "/en/services/seo-at-the-development-stage/",
+      "permanent": false
+    },
+    {
+      "source": "/en/facebook-advertising-replenishment-with-vat",
+      "destination": "/en/services/facebook-advertising-replenishment-with-vat/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-zaporizhzhia",
+      "destination": "/en/services/promotion-zaporizhzhia/",
+      "permanent": false
+    },
+    {
+      "source": "/en/serm",
+      "destination": "/en/services/serm/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-vinnytsia",
+      "destination": "/en/services/promotion-vinnytsia/",
+      "permanent": false
+    },
+    {
+      "source": "/en/tiktok-advertising",
+      "destination": "/en/services/tiktok-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/consulting",
+      "destination": "/en/services/consulting/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-lutsk",
+      "destination": "/en/services/promotion-lutsk/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-lviv",
+      "destination": "/en/services/promotion-lviv/",
+      "permanent": false
+    },
+    {
+      "source": "/en/website-development",
+      "destination": "/en/services/website-development/",
+      "permanent": false
+    },
+    {
+      "source": "/en/google-ads-audit",
+      "destination": "/en/services/google-ads-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/en/web-analytics",
+      "destination": "/en/services/web-analytics/",
+      "permanent": false
+    },
+    {
+      "source": "/en/website-structure-development",
+      "destination": "/en/services/website-structure-development/",
+      "permanent": false
+    },
+    {
+      "source": "/en/call-tracking",
+      "destination": "/en/services/call-tracking/",
+      "permanent": false
+    },
+    {
+      "source": "/en/contextual-advertising",
+      "destination": "/en/services/contextual-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/targeted-advertising-on-social-networks",
+      "destination": "/en/services/targeted-advertising-on-social-networks/",
+      "permanent": false
+    },
+    {
+      "source": "/en/ux-audit",
+      "destination": "/en/services/ux-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/en/advertising-account-audit",
+      "destination": "/en/services/advertising-account-audit/",
+      "permanent": false
+    },
+    {
+      "source": "/en/seo-promotion",
+      "destination": "/en/services/seo-promotion/",
+      "permanent": false
+    },
+    {
+      "source": "/en/seo-writing",
+      "destination": "/en/services/seo-writing/",
+      "permanent": false
+    },
+    {
+      "source": "/en/instagram-advertising",
+      "destination": "/en/services/instagram-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/contextual-advertising-kyiv",
+      "destination": "/en/services/contextual-advertising-kyiv/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-dnipro",
+      "destination": "/en/services/promotion-dnipro/",
+      "permanent": false
+    },
+    {
+      "source": "/en/mobile-advertising",
+      "destination": "/en/services/mobile-advertising/",
+      "permanent": false
+    },
+    {
+      "source": "/en/application-development",
+      "destination": "/en/services/application-development/",
+      "permanent": false
+    },
+    {
+      "source": "/en/advertising-on-telegram",
+      "destination": "/en/services/advertising-on-telegram/",
+      "permanent": false
+    },
+    {
+      "source": "/en/audit-of-advertising-accounts",
+      "destination": "/en/services/audit-of-advertising-accounts/",
+      "permanent": false
+    },
+    {
+      "source": "/en/seo-for-search-chat-gpt-ai",
+      "destination": "/en/services/seo-for-search-chat-gpt-ai/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-odesa",
+      "destination": "/en/services/promotion-odesa/",
+      "permanent": false
+    },
+    {
+      "source": "/en/promotion-zhytomyr",
+      "destination": "/en/services/promotion-zhytomyr/",
+      "permanent": false
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}

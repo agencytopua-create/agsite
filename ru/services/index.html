@@ -4,20 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="preload" href="https://www.top-agency.online/wp-content/themes/smk_child/assets/fonts/inter-tight-v7-cyrillic-ext_latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<style>/* Общее правило для скрытия элементов с анимациями */
-		[data-custom-animations=true]:not(.ca-initvalues-applied) {
+	<style>[data-custom-animations=true]:not(.ca-initvalues-applied) {
             opacity: 0 !important;
         }
-		/* Исправление: всегда показываем контент на странице услуг даже без инициализации анимаций */
-		/* Более специфичный селектор с более высоким приоритетом */
-		html body .services-list-section [data-custom-animations=true],
-		html body .text-section [data-custom-animations=true],
-		html body .services-list-section [data-custom-animations=true]:not(.ca-initvalues-applied),
-		html body .text-section [data-custom-animations=true]:not(.ca-initvalues-applied),
-		.services-list-section [data-custom-animations=true],
-		.text-section [data-custom-animations=true] {
-			opacity: 1 !important;
-		}
 		@font-face {
 			font-display: swap; 
 			font-family: 'Inter Tight';

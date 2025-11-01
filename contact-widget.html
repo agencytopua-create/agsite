@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Widget - TOP AGENCY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #181818 0%, #0a0a0a 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Contact Widget Container */
+        .contact-widget {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9999;
+            animation: slideInUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Widget Button */
+        .widget-button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #52b936 0%, #45a02e 100%);
+            border: none;
+            box-shadow: 0 10px 30px rgba(82, 185, 54, 0.4),
+                        0 0 0 0 rgba(82, 185, 54, 0.7);
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 10px 30px rgba(82, 185, 54, 0.4),
+                            0 0 0 0 rgba(82, 185, 54, 0.7);
+            }
+            50% {
+                box-shadow: 0 10px 30px rgba(82, 185, 54, 0.4),
+                            0 0 0 15px rgba(82, 185, 54, 0);
+            }
+            100% {
+                box-shadow: 0 10px 30px rgba(82, 185, 54, 0.4),
+                            0 0 0 0 rgba(82, 185, 54, 0.7);
+            }
+        }
+
+        .widget-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(82, 185, 54, 0.6),
+                        0 0 0 0 rgba(82, 185, 54, 0.7);
+        }
+
+        .widget-button.active {
+            transform: rotate(45deg);
+            background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
+        }
+
+        /* Icon */
+        .widget-icon {
+            width: 32px;
+            height: 32px;
+            position: relative;
+        }
+
+        .widget-icon svg {
+            width: 100%;
+            height: 100%;
+            fill: white;
+        }
+
+        /* Contact Panel */
+        .contact-panel {
+            position: absolute;
+            bottom: 90px;
+            right: 0;
+            background: rgba(31, 31, 31, 0.98);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(82, 185, 54, 0.3);
+            border-radius: 16px;
+            padding: 25px;
+            width: 320px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px) scale(0.9);
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            pointer-events: none;
+        }
+
+        .contact-panel.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0) scale(1);
+            pointer-events: all;
+        }
+
+        .contact-panel::before {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 30px;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid rgba(31, 31, 31, 0.98);
+        }
+
+        /* Header */
+        .panel-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(82, 185, 54, 0.2);
+        }
+
+        .panel-title {
+            color: #52b936;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .panel-subtitle {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        /* Contact Items */
+        .contact-items {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: rgba(82, 185, 54, 0.05);
+            border: 1px solid rgba(82, 185, 54, 0.2);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(82, 185, 54, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .contact-item:hover::before {
+            left: 100%;
+        }
+
+        .contact-item:hover {
+            background: rgba(82, 185, 54, 0.15);
+            border-color: #52b936;
+            transform: translateX(-5px);
+        }
+
+        .contact-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover .contact-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .contact-icon.telegram {
+            background: linear-gradient(135deg, #0088cc 0%, #006699 100%);
+        }
+
+        .contact-icon.viber {
+            background: linear-gradient(135deg, #665cac 0%, #4d4180 100%);
+        }
+
+        .contact-icon svg {
+            width: 26px;
+            height: 26px;
+            fill: white;
+        }
+
+        .contact-info {
+            flex: 1;
+        }
+
+        .contact-label {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-value {
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .contact-arrow {
+            color: rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover .contact-arrow {
+            color: #52b936;
+            transform: translateX(5px);
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .contact-widget {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .contact-panel {
+                width: calc(100vw - 40px);
+                max-width: 320px;
+                right: -10px;
+            }
+
+            .contact-panel::before {
+                right: 40px;
+            }
+
+            .widget-button {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        /* Dark overlay */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 9998;
+            pointer-events: none;
+        }
+
+        .overlay.show {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: all;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dark Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Contact Widget -->
+    <div class="contact-widget">
+        <!-- Contact Panel -->
+        <div class="contact-panel" id="contactPanel">
+            <div class="panel-header">
+                <div class="panel-title">Зв'яжіться з нами</div>
+                <div class="panel-subtitle">Оберіть зручний спосіб зв'язку</div>
+            </div>
+            
+            <div class="contact-items">
+                <!-- Telegram -->
+                <a href="https://t.me/Blastermannn" target="_blank" class="contact-item" rel="noopener noreferrer">
+                    <div class="contact-icon telegram">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16l-1.584 7.464c-.119.606-.427.755-.867.471l-2.395-1.765-1.154 1.109c-.131.131-.24.24-.491.24l.174-2.462 4.444-4.008c.194-.17-.042-.264-.3-.096l-5.488 3.458-2.365-.736c-.514-.16-.528-.514.107-.781l9.257-3.568c.431-.162.809.101.668.682z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-label">Telegram</div>
+                        <div class="contact-value">@Blastermannn</div>
+                    </div>
+                    <div class="contact-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </div>
+                </a>
+
+                <!-- Viber -->
+                <a href="viber://chat?number=+380934797577" class="contact-item">
+                    <div class="contact-icon viber">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.772 0c-3.706 0-6.74 1.933-6.74 4.323 0 .641.196 1.234.515 1.764l-2.01 6.31 6.788-2.085c.48.25 1.016.388 1.58.388.396 0 .78-.06 1.14-.17C12.87 12.844 12 11.726 12 10.353c0-2.69 2.954-4.84 6.62-4.84.408 0 .806.036 1.193.103-1.177-2.154-4.822-5.616-9.041-5.616zm-2.154 11.944c-.146.097-.489-.036-.915-.247-2.793-1.356-4.728-4.039-4.728-4.039s-.27-.295.143-.53c.412-.236 1.016-.412 1.016-.412s.39-.136.694.097c.228.171.519.445.969.9.889.889 1.093.59 1.127.512.034-.078.385-1.548.768-2.498.173-.435.246-.523.451-.523.205 0 .689-.068.689-.068s-.756 0-1.37.078c-.615.078-.837.153-1.201.477-.362.323-1.42 1.479-1.42 3.622 0 2.143.835 2.643 1.046 2.841.211.198.334.074.539-.049l1.259-.747zm8.204.499l-.197.221c-.206.228-.59.584-.984.972-2.164 2.037-5.179 2.22-6.926 1.992-.568-.074-1.219-.172-1.811-.235-.314-.034-.688-.074-1.025-.074-.062 0-.103 0-.103.059 0 .059-.034.068-.034.127-.062.244-.429.46-.668.667-.327.284-.837.695-1.015 1.045-.178.35-.196.612-.196.612s.597-.051.985-.145c.388-.094.82-.246 1.252-.416.432-.17.846-.377 1.252-.589.095-.049.197-.107.304-.171.8-.472 1.433-.994 1.926-1.421l-.59-.726c-.595-.724-1.046-1.467-1.046-2.275 0-.832.456-1.675 1.065-2.448l.194-.072c1.318.723 2.682 1.256 4.073 1.768.486.179.694.652.514 1.138zm.798 0c-.197.323-.549.587-.984.972-1.63 1.782-4.023 2.12-5.721 1.842-.568-.089-1.164-.195-1.77-.265-.314-.034-.678-.078-1.02-.078 0 0-.062 0-.062.059s-.034.068-.068.127c-.034.244-.411.478-.678.667-.327.244-.825.712-.985 1.045-.179.35-.205.612-.205.612s.594-.051.985-.145c.388-.094.82-.246 1.251-.416.432-.17.846-.377 1.252-.589.105-.049.207-.107.314-.171.806-.472 1.439-.994 1.932-1.421l-.624-.726c-.605-.724-1.067-1.467-1.067-2.275 0-.832.45-1.675 1.059-2.448l.23-.072c1.323.723 2.692 1.256 4.087 1.768.494.179.702.652.514 1.138l-.197.323"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-label">Viber</div>
+                        <div class="contact-value">+380 93 479 7577</div>
+                    </div>
+                    <div class="contact-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Widget Button -->
+        <button class="widget-button" id="widgetButton">
+            <div class="widget-icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="iconSvg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+    <script>
+        // Widget functionality
+        const widgetButton = document.getElementById('widgetButton');
+        const contactPanel = document.getElementById('contactPanel');
+        const overlay = document.getElementById('overlay');
+        const iconSvg = document.getElementById('iconSvg');
+
+        // Toggle function
+        function toggleWidget() {
+            const isActive = widgetButton.classList.contains('active');
+            
+            if (isActive) {
+                // Close
+                widgetButton.classList.remove('active');
+                contactPanel.classList.remove('show');
+                overlay.classList.remove('show');
+                changeIcon('message');
+            } else {
+                // Open
+                widgetButton.classList.add('active');
+                contactPanel.classList.add('show');
+                overlay.classList.add('show');
+                changeIcon('close');
+            }
+        }
+
+        // Change icon
+        function changeIcon(type) {
+            if (type === 'message') {
+                iconSvg.innerHTML = `
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                `;
+            } else if (type === 'close') {
+                iconSvg.innerHTML = `
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                `;
+            }
+        }
+
+        // Event listeners
+        widgetButton.addEventListener('click', toggleWidget);
+        overlay.addEventListener('click', toggleWidget);
+
+        // Close on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && contactPanel.classList.contains('show')) {
+                toggleWidget();
+            }
+        });
+
+        // Prevent panel click from closing
+        contactPanel.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+
+        // Animation on scroll
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > lastScroll && currentScroll > 100) {
+                // Scrolling down
+                document.querySelector('.contact-widget').style.transform = 'translateY(calc(100% + 30px))';
+                document.querySelector('.contact-widget').style.opacity = '0';
+            } else {
+                // Scrolling up
+                document.querySelector('.contact-widget').style.transform = 'translateY(0)';
+                document.querySelector('.contact-widget').style.opacity = '1';
+            }
+            lastScroll = currentScroll;
+        });
+    </script>
+</body>
+</html>
+

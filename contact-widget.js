@@ -77,9 +77,10 @@
 
             <!-- Widget Button -->
             <button class="widget-button" id="contactWidgetButton">
+                <div class="widget-label">Написать менеджеру</div>
                 <div class="widget-icon">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="contactIconSvg">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                     </svg>
                 </div>
             </button>
@@ -123,13 +124,13 @@
             widgetButton.classList.remove('active');
             contactPanel.classList.remove('show');
             overlay.classList.remove('show');
-            changeIcon('message');
+            changeIcon('phone');
         }
 
         // Change icon
         function changeIcon(type) {
-            if (type === 'message') {
-                iconSvg.innerHTML = `<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>`;
+            if (type === 'phone') {
+                iconSvg.innerHTML = `<path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>`;
             } else if (type === 'close') {
                 iconSvg.innerHTML = `<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>`;
             }

@@ -7,6 +7,11 @@
 	<style>[data-custom-animations=true]:not(.ca-initvalues-applied) {
             opacity: 0 !important;
         }
+		/* Исправление: всегда показываем контент на странице услуг */
+		.services-list-section [data-custom-animations=true],
+		.text-section [data-custom-animations=true] {
+			opacity: 1 !important;
+		}
 		@font-face {
 			font-display: swap; 
 			font-family: 'Inter Tight';
